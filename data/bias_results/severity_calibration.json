@@ -1,0 +1,155 @@
+{
+  "analysis": "Severity Calibration (Many-Facet Rasch-style)",
+  "method": "Consensus = median score per (item, dim) across all judges. Severity = mean(raw_score - consensus) per judge. Positive = lenient, Negative = severe.",
+  "scale": "1-3 (1=incorrect, 2=partial, 3=correct)",
+  "n_records": 8300,
+  "judge_severity": {
+    "DeepSeek-V3-685B": {
+      "severity_estimate": 0.1548,
+      "std": 0.3935,
+      "n_ratings": 840,
+      "interpretation": "lenient (scores above consensus)"
+    },
+    "Kimi-K2-1T": {
+      "severity_estimate": -0.0667,
+      "std": 0.4674,
+      "n_ratings": 840,
+      "interpretation": "severe (scores below consensus)"
+    },
+    "Llama-3.3-70B": {
+      "severity_estimate": 0.0274,
+      "std": 0.3788,
+      "n_ratings": 840,
+      "interpretation": "well-calibrated (near consensus)"
+    },
+    "Gemma-3-27B": {
+      "severity_estimate": 0.0036,
+      "std": 0.4046,
+      "n_ratings": 838,
+      "interpretation": "well-calibrated (near consensus)"
+    },
+    "Qwen3-32B": {
+      "severity_estimate": 0.1318,
+      "std": 0.3873,
+      "n_ratings": 770,
+      "interpretation": "lenient (scores above consensus)"
+    },
+    "Llama-3.1-8B": {
+      "severity_estimate": -0.2266,
+      "std": 0.5105,
+      "n_ratings": 832,
+      "interpretation": "severe (scores below consensus)"
+    },
+    "Llama-3.2-3B": {
+      "severity_estimate": -0.1539,
+      "std": 0.5212,
+      "n_ratings": 834,
+      "interpretation": "severe (scores below consensus)"
+    },
+    "Qwen2.5-7B": {
+      "severity_estimate": -0.405,
+      "std": 0.5756,
+      "n_ratings": 826,
+      "interpretation": "severe (scores below consensus)"
+    },
+    "Claude-Sonnet-4.6": {
+      "severity_estimate": -0.1488,
+      "std": 0.4814,
+      "n_ratings": 840,
+      "interpretation": "severe (scores below consensus)"
+    },
+    "GPT-4.1": {
+      "severity_estimate": -0.0571,
+      "std": 0.3609,
+      "n_ratings": 840,
+      "interpretation": "severe (scores below consensus)"
+    }
+  },
+  "model_size_gap": {
+    "big_mean_deviation": 0.0488,
+    "small_mean_deviation": -0.2614,
+    "private_mean_deviation": -0.103,
+    "gap": 0.3102,
+    "interpretation": "Large judges more lenient than small judges"
+  },
+  "dimension_difficulty": {
+    "P_accuracy": {
+      "mean_score": 2.6308,
+      "n": 1189,
+      "interpretation": "easy to judge (high scores)"
+    },
+    "I_accuracy": {
+      "mean_score": 2.7612,
+      "n": 1185,
+      "interpretation": "easy to judge (high scores)"
+    },
+    "C_accuracy": {
+      "mean_score": 2.5181,
+      "n": 1187,
+      "interpretation": "easy to judge (high scores)"
+    },
+    "O_accuracy": {
+      "mean_score": 2.814,
+      "n": 1188,
+      "interpretation": "easy to judge (high scores)"
+    },
+    "confounders_accuracy": {
+      "mean_score": 2.3251,
+      "n": 1178,
+      "interpretation": "moderate"
+    },
+    "completeness": {
+      "mean_score": 2.4068,
+      "n": 1185,
+      "interpretation": "moderate"
+    },
+    "overall": {
+      "mean_score": 2.4151,
+      "n": 1188,
+      "interpretation": "moderate"
+    }
+  },
+  "calibration_formula": "calibrated_score = raw_score - severity_estimate",
+  "all_judges_ordered": [
+    [
+      "DeepSeek-V3-685B",
+      0.1548
+    ],
+    [
+      "Qwen3-32B",
+      0.1318
+    ],
+    [
+      "Llama-3.3-70B",
+      0.0274
+    ],
+    [
+      "Gemma-3-27B",
+      0.0036
+    ],
+    [
+      "GPT-4.1",
+      -0.0571
+    ],
+    [
+      "Kimi-K2-1T",
+      -0.0667
+    ],
+    [
+      "Claude-Sonnet-4.6",
+      -0.1488
+    ],
+    [
+      "Llama-3.2-3B",
+      -0.1539
+    ],
+    [
+      "Llama-3.1-8B",
+      -0.2266
+    ],
+    [
+      "Qwen2.5-7B",
+      -0.405
+    ]
+  ]
+}

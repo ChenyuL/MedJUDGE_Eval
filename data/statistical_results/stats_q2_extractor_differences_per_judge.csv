@@ -1,0 +1,11 @@
+judge,n_papers,n_extractors,friedman_chi2,df,p_value,significance,kendall_W,effect
+DeepSeek-V3-685B,30,4,3.667,3,0.2998,ns,0.032,negligible
+Kimi-K2-1T,30,4,4.343,3,0.2268,ns,0.037,negligible
+Llama-3.3-70B,30,4,2.143,3,0.5433,ns,0.018,negligible
+Gemma-3-27B,30,4,2.348,3,0.5034,ns,0.02,negligible
+Qwen3-32B,27,4,4.538,3,0.2089,ns,0.044,negligible
+Llama-3.1-8B,29,4,1.727,3,0.6309,ns,0.015,negligible
+Llama-3.2-3B,30,4,1.541,3,0.6729,ns,0.013,negligible
+Qwen2.5-7B,30,4,4.488,3,0.2133,ns,0.039,negligible
+Claude-Sonnet-4.6,30,4,22.95,3,0.0,***,0.198,negligible
+GPT-4.1,30,4,23.308,3,0.0,***,0.201,negligible

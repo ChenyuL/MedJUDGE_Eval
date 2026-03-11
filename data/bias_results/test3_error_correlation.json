@@ -1,0 +1,9 @@
+{
+  "n_tasks": 120,
+  "judges": [
+    "DeepSeek-V3-685B",
+    "Llama-3.3-70B",
+    "Qwen2.5-7B"
+  ],
+  "method": "Extracted from cross_judge_results"
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "task": "29669697_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "24972918_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "29539612_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "34348869_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "B",
+    "consistent": false
+  },
+  {
+    "task": "32591734_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "28886989_overall",
+    "order_a_choice": "B",
+    "order_b_choice": null,
+    "consistent": null
+  },
+  {
+    "task": "23238659_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "B",
+    "consistent": false
+  },
+  {
+    "task": "30618280_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "31537841_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "34831722_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "35870161_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "23811246_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "32833926_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "29264632_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "B",
+    "consistent": false
+  },
+  {
+    "task": "34338412_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "B",
+    "consistent": false
+  },
+  {
+    "task": "31405419_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "B",
+    "consistent": false
+  },
+  {
+    "task": "32688083_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "B",
+    "consistent": false
+  },
+  {
+    "task": "30853444_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "B",
+    "consistent": false
+  },
+  {
+    "task": "32964371_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "B",
+    "consistent": false
+  },
+  {
+    "task": "20473188_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "29894495_overall",
+    "order_a_choice": null,
+    "order_b_choice": "A",
+    "consistent": null
+  },
+  {
+    "task": "28122760_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "33450821_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "B",
+    "consistent": false
+  },
+  {
+    "task": "28472213_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "28475259_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "29305022_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "B",
+    "consistent": false
+  },
+  {
+    "task": "32925614_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "28319547_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "32069337_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  },
+  {
+    "task": "33175173_overall",
+    "order_a_choice": "B",
+    "order_b_choice": "A",
+    "consistent": true
+  }
+]

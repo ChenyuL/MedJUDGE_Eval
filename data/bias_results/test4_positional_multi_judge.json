@@ -1,0 +1,4922 @@
+[
+  {
+    "pmid": "20473188",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "B",
+        "preferred": "A",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "B",
+        "preferred": "A",
+        "consistent": true
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "B",
+        "preferred": "A",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "A",
+        "preferred": "A",
+        "consistent": false
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Llama-3.3-70B",
+        "Kimi-K2",
+        "Gemma-3-27B",
+        "DeepSeek-V3"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "C",
+          "order1_pick_extractor": "Llama-3.3-70B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "C",
+          "order1_pick_extractor": "Llama-3.3-70B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "C",
+          "order1_pick_extractor": "Llama-3.3-70B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "C",
+          "order1_pick_extractor": "Llama-3.3-70B",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Llama-3.3-70B",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": true
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "C",
+          "order1_pick_extractor": "Llama-3.3-70B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "C",
+          "order1_pick_extractor": "Llama-3.3-70B",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Llama-3.3-70B",
+          "consistent": true
+        }
+      }
+    }
+  },
+  {
+    "pmid": "23238659",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "A",
+        "preferred": "A",
+        "consistent": false
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Gemma-3-27B",
+        "Llama-3.3-70B",
+        "DeepSeek-V3",
+        "Kimi-K2"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": null
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": true
+        }
+      }
+    }
+  },
+  {
+    "pmid": "23811246",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": null,
+        "order_ba_choice": "A",
+        "preferred": null,
+        "consistent": null
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Kimi-K2",
+        "Gemma-3-27B",
+        "Llama-3.3-70B",
+        "DeepSeek-V3"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        }
+      }
+    }
+  },
+  {
+    "pmid": "24972918",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "DeepSeek-V3",
+        "Gemma-3-27B"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        }
+      }
+    }
+  },
+  {
+    "pmid": "28122760",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B",
+        "DeepSeek-V3"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": true
+        }
+      }
+    }
+  },
+  {
+    "pmid": "28319547",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": null,
+        "order_ba_choice": "A",
+        "preferred": null,
+        "consistent": null
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Kimi-K2",
+        "Gemma-3-27B",
+        "Llama-3.3-70B",
+        "DeepSeek-V3"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        }
+      }
+    }
+  },
+  {
+    "pmid": "28472213",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Llama-3.3-70B",
+        "Kimi-K2",
+        "DeepSeek-V3",
+        "Gemma-3-27B"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Llama-3.3-70B",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        }
+      }
+    }
+  },
+  {
+    "pmid": "28475259",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": null,
+        "order_ba_choice": "A",
+        "preferred": null,
+        "consistent": null
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Kimi-K2",
+        "Gemma-3-27B",
+        "DeepSeek-V3",
+        "Llama-3.3-70B"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        }
+      }
+    }
+  },
+  {
+    "pmid": "28886989",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "A",
+        "preferred": "A",
+        "consistent": false
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "DeepSeek-V3",
+        "Llama-3.3-70B",
+        "Kimi-K2",
+        "Gemma-3-27B"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Llama-3.3-70B",
+          "consistent": false
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": true
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Llama-3.3-70B",
+          "consistent": false
+        }
+      }
+    }
+  },
+  {
+    "pmid": "29264632",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "A",
+        "preferred": "A",
+        "consistent": false
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Llama-3.3-70B",
+        "Gemma-3-27B",
+        "DeepSeek-V3",
+        "Kimi-K2"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        }
+      }
+    }
+  },
+  {
+    "pmid": "29305022",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Llama-3.3-70B",
+        "Kimi-K2",
+        "Gemma-3-27B",
+        "DeepSeek-V3"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Llama-3.3-70B",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        }
+      }
+    }
+  },
+  {
+    "pmid": "29539612",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "A",
+        "preferred": "A",
+        "consistent": false
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Gemma-3-27B",
+        "Llama-3.3-70B",
+        "Kimi-K2",
+        "DeepSeek-V3"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Llama-3.3-70B",
+          "consistent": false
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        }
+      }
+    }
+  },
+  {
+    "pmid": "29669697",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Gemma-3-27B",
+        "Kimi-K2",
+        "DeepSeek-V3",
+        "Llama-3.3-70B"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        }
+      }
+    }
+  },
+  {
+    "pmid": "29894495",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Llama-3.3-70B",
+        "Gemma-3-27B",
+        "Kimi-K2",
+        "DeepSeek-V3"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Llama-3.3-70B",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        }
+      }
+    }
+  },
+  {
+    "pmid": "30618280",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Gemma-3-27B",
+        "Llama-3.3-70B"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        }
+      }
+    }
+  },
+  {
+    "pmid": "30853444",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Gemma-3-27B",
+        "DeepSeek-V3",
+        "Llama-3.3-70B",
+        "Kimi-K2"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": null
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "C",
+          "order1_pick_extractor": "Llama-3.3-70B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        }
+      }
+    }
+  },
+  {
+    "pmid": "31405419",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "A",
+        "preferred": "A",
+        "consistent": false
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "B",
+        "preferred": "A",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Kimi-K2",
+        "Gemma-3-27B",
+        "Llama-3.3-70B",
+        "DeepSeek-V3"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "C",
+          "order1_pick_extractor": "Llama-3.3-70B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Llama-3.3-70B",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "C",
+          "order1_pick_extractor": "Llama-3.3-70B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "C",
+          "order1_pick_extractor": "Llama-3.3-70B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        }
+      }
+    }
+  },
+  {
+    "pmid": "31537841",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Kimi-K2",
+        "Gemma-3-27B",
+        "DeepSeek-V3",
+        "Llama-3.3-70B"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        }
+      }
+    }
+  },
+  {
+    "pmid": "32069337",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "A",
+        "preferred": "A",
+        "consistent": false
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Gemma-3-27B",
+        "Llama-3.3-70B",
+        "Kimi-K2",
+        "DeepSeek-V3"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": null
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        }
+      }
+    }
+  },
+  {
+    "pmid": "32591734",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "DeepSeek-V3",
+        "Llama-3.3-70B",
+        "Gemma-3-27B",
+        "Kimi-K2"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": null
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Llama-3.3-70B",
+          "consistent": false
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        }
+      }
+    }
+  },
+  {
+    "pmid": "32688083",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "A",
+        "preferred": "A",
+        "consistent": false
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "B",
+        "preferred": "A",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "DeepSeek-V3",
+        "Gemma-3-27B",
+        "Llama-3.3-70B",
+        "Kimi-K2"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": true
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        }
+      }
+    }
+  },
+  {
+    "pmid": "32833926",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "A",
+        "preferred": "A",
+        "consistent": false
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "A",
+        "preferred": "A",
+        "consistent": false
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Kimi-K2",
+        "Gemma-3-27B",
+        "Llama-3.3-70B",
+        "DeepSeek-V3"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        }
+      }
+    }
+  },
+  {
+    "pmid": "32925614",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Llama-3.3-70B",
+        "Gemma-3-27B",
+        "DeepSeek-V3",
+        "Kimi-K2"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Llama-3.3-70B",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        }
+      }
+    }
+  },
+  {
+    "pmid": "32964371",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Llama-3.3-70B",
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Gemma-3-27B"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        }
+      }
+    }
+  },
+  {
+    "pmid": "33175173",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Kimi-K2",
+        "Gemma-3-27B",
+        "DeepSeek-V3",
+        "Llama-3.3-70B"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": null
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Llama-3.3-70B",
+          "consistent": false
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        }
+      }
+    }
+  },
+  {
+    "pmid": "33450821",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "B",
+        "preferred": "A",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Gemma-3-27B",
+        "Llama-3.3-70B",
+        "Kimi-K2",
+        "DeepSeek-V3"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": true
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        }
+      }
+    }
+  },
+  {
+    "pmid": "34338412",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "A",
+        "preferred": "A",
+        "consistent": false
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "A",
+        "order_ba_choice": "B",
+        "preferred": "A",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Kimi-K2",
+        "Gemma-3-27B",
+        "DeepSeek-V3",
+        "Llama-3.3-70B"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        }
+      }
+    }
+  },
+  {
+    "pmid": "34348869",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Gemma-3-27B",
+        "Kimi-K2",
+        "DeepSeek-V3",
+        "Llama-3.3-70B"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "C",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        }
+      }
+    }
+  },
+  {
+    "pmid": "34831722",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "Llama-3.3-70B",
+        "DeepSeek-V3",
+        "Gemma-3-27B",
+        "Kimi-K2"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "Llama-3.3-70B",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        }
+      }
+    }
+  },
+  {
+    "pmid": "35870161",
+    "test_a": {
+      "DeepSeek-V3": {
+        "order_ab_choice": "B",
+        "order_ba_choice": null,
+        "preferred": "B",
+        "consistent": null
+      },
+      "Claude-Sonnet-4.6": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "GPT-4.5": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "DeepSeek-V3-685B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Kimi-K2-1T": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.3-70B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Gemma-3-27B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      },
+      "Qwen3-32B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.1-8B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "A",
+        "preferred": "B",
+        "consistent": true
+      },
+      "Llama-3.2-3B": {
+        "order_ab_choice": null,
+        "order_ba_choice": null,
+        "preferred": null,
+        "consistent": null
+      },
+      "Qwen2.5-7B": {
+        "order_ab_choice": "B",
+        "order_ba_choice": "B",
+        "preferred": "B",
+        "consistent": false
+      }
+    },
+    "test_b": {
+      "order1": [
+        "DeepSeek-V3",
+        "Kimi-K2",
+        "Llama-3.3-70B",
+        "Gemma-3-27B"
+      ],
+      "order2": [
+        "DeepSeek-V3",
+        "Gemma-3-27B",
+        "Llama-3.3-70B",
+        "Kimi-K2"
+      ],
+      "judges": {
+        "DeepSeek-V3": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Claude-Sonnet-4.6": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "GPT-4.5": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "DeepSeek-V3-685B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        },
+        "Kimi-K2-1T": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Llama-3.3-70B": {
+          "order1_pick_label": "B",
+          "order1_pick_extractor": "Kimi-K2",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": true
+        },
+        "Gemma-3-27B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "D",
+          "order2_pick_extractor": "Kimi-K2",
+          "consistent": false
+        },
+        "Qwen3-32B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "A",
+          "order2_pick_extractor": "DeepSeek-V3",
+          "consistent": false
+        },
+        "Llama-3.1-8B": {
+          "order1_pick_label": "D",
+          "order1_pick_extractor": "Gemma-3-27B",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": true
+        },
+        "Llama-3.2-3B": {
+          "order1_pick_label": null,
+          "order1_pick_extractor": null,
+          "order2_pick_label": null,
+          "order2_pick_extractor": null,
+          "consistent": null
+        },
+        "Qwen2.5-7B": {
+          "order1_pick_label": "A",
+          "order1_pick_extractor": "DeepSeek-V3",
+          "order2_pick_label": "B",
+          "order2_pick_extractor": "Gemma-3-27B",
+          "consistent": false
+        }
+      }
+    }
+  }
+]

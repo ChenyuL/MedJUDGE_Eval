@@ -1,0 +1,5 @@
+extractor,n_papers,n_judges,friedman_chi2,df,p_value,significance,kendall_W,effect
+DeepSeek-V3,28,10,82.814,9,0.0,***,0.307,weak
+Kimi-K2,28,10,105.284,9,0.0,***,0.39,weak
+Llama-3.3-70B,26,10,90.238,9,0.0,***,0.361,weak
+Gemma-3-27B,27,10,72.387,9,0.0,***,0.278,negligible

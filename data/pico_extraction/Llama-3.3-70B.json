@@ -1,0 +1,3522 @@
+{
+  "20473188": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"clinically heterogeneous patient populations, including persons of low literacy, non-English speaking patients, or the frail elderly\",\n    \"demographics\": \"low literacy, non-English speaking, frail elderly\",\n    \"setting\": \"clinical settings, including nursing homes\"\n  },\n  \"I\": {\n    \"variables\": [\"medical interventions\", \"treatment combinations\"],\n    \"description\": \"comparative effectiveness of medical interventions\"\n  },\n  \"C\": {\n    \"description\": \"alternative interventions\",\n    \"type\": \"active comparator\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"health outcomes\",\n    \"secondary_outcomes\": [\"patient-reported outcomes\", \"longitudinal outcomes\"],\n    \"measurement\": \"patient-reported measures, Minimum Data Set\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"comorbidity\", \"disease burden\"],\n    \"adjustment_method\": \"propensity scoring, multivariable regression\"\n  },\n  \"study_design\": \"observational studies, including practice-based evidence studies\",\n  \"sample_size\": \"not specified\",\n  \"causal_question\": \"Does the comparative effectiveness of medical interventions affect health outcomes in clinically heterogeneous patient populations, compared to alternative interventions, after adjusting for comorbidity and disease burden?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "clinically heterogeneous patient populations, including persons of low literacy, non-English speaking patients, or the frail elderly",
+        "demographics": "low literacy, non-English speaking, frail elderly",
+        "setting": "clinical settings, including nursing homes"
+      },
+      "I": {
+        "variables": [
+          "medical interventions",
+          "treatment combinations"
+        ],
+        "description": "comparative effectiveness of medical interventions"
+      },
+      "C": {
+        "description": "alternative interventions",
+        "type": "active comparator"
+      },
+      "O": {
+        "primary_outcome": "health outcomes",
+        "secondary_outcomes": [
+          "patient-reported outcomes",
+          "longitudinal outcomes"
+        ],
+        "measurement": "patient-reported measures, Minimum Data Set"
+      },
+      "Confounders": {
+        "variables": [
+          "comorbidity",
+          "disease burden"
+        ],
+        "adjustment_method": "propensity scoring, multivariable regression"
+      },
+      "study_design": "observational studies, including practice-based evidence studies",
+      "sample_size": "not specified",
+      "causal_question": "Does the comparative effectiveness of medical interventions affect health outcomes in clinically heterogeneous patient populations, compared to alternative interventions, after adjusting for comorbidity and disease burden?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "20473188",
+        "extracted": "2026-03-04T16:04:12.687646",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "20473188-population",
+          "name": "Population (P)",
+          "description": "clinically heterogeneous patient populations, including persons of low literacy, non-English speaking patients, or the frail elderly",
+          "demographics": "low literacy, non-English speaking, frail elderly",
+          "setting": "clinical settings, including nursing homes"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "20473188-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "medical interventions"
+            },
+            {
+              "description": "treatment combinations"
+            }
+          ],
+          "description": "comparative effectiveness of medical interventions"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "20473188-comparison",
+          "name": "Comparison (C)",
+          "description": "alternative interventions",
+          "type": "active comparator"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "20473188-outcome",
+          "name": "Outcome (O)",
+          "description": "health outcomes",
+          "secondary_outcomes": [
+            "patient-reported outcomes",
+            "longitudinal outcomes"
+          ],
+          "measurement": "patient-reported measures, Minimum Data Set",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "20473188-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "comorbidity"
+            },
+            {
+              "description": "disease burden"
+            }
+          ],
+          "description": "propensity scoring, multivariable regression"
+        }
+      ],
+      "study_design": "observational studies, including practice-based evidence studies",
+      "sample_size": "not specified",
+      "causal_question": "Does the comparative effectiveness of medical interventions affect health outcomes in clinically heterogeneous patient populations, compared to alternative interventions, after adjusting for comorbidity and disease burden?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:04:12.687666"
+  },
+  "23238659": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Patients with type 2 diabetes\",\n    \"demographics\": \"Non-Hispanic white, Asian (Asian Indian, Chinese, and Filipino), Hispanic, and non-Hispanic black, with age and sex reported\",\n    \"setting\": \"Outpatient health care organization in the United States\"\n  },\n  \"I\": {\n    \"variables\": [\"Racial/ethnic group\"],\n    \"description\": \"Racial/ethnic differences\"\n  },\n  \"C\": {\n    \"description\": \"Non-Hispanic white (NHW) group\",\n    \"type\": \"Reference group\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"Prevalence of proteinuric and nonproteinuric diabetic kidney disease (DKD)\",\n    \"secondary_outcomes\": [\"Odds ratios of DKD in racial/ethnic minorities relative to NHWs\"],\n    \"measurement\": \"Directly standardized age- and sex-adjusted prevalence rates\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"Traditional DKD risk factors\"],\n    \"adjustment_method\": \"Multivariable regression\"\n  },\n  \"study_design\": \"Retrospective cohort study\",\n  \"sample_size\": \"15,683\",\n  \"causal_question\": \"Do racial/ethnic differences affect the prevalence of proteinuric and nonproteinuric diabetic kidney disease in patients with type 2 diabetes, compared to non-Hispanic whites, after adjusting for traditional DKD risk factors?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Patients with type 2 diabetes",
+        "demographics": "Non-Hispanic white, Asian (Asian Indian, Chinese, and Filipino), Hispanic, and non-Hispanic black, with age and sex reported",
+        "setting": "Outpatient health care organization in the United States"
+      },
+      "I": {
+        "variables": [
+          "Racial/ethnic group"
+        ],
+        "description": "Racial/ethnic differences"
+      },
+      "C": {
+        "description": "Non-Hispanic white (NHW) group",
+        "type": "Reference group"
+      },
+      "O": {
+        "primary_outcome": "Prevalence of proteinuric and nonproteinuric diabetic kidney disease (DKD)",
+        "secondary_outcomes": [
+          "Odds ratios of DKD in racial/ethnic minorities relative to NHWs"
+        ],
+        "measurement": "Directly standardized age- and sex-adjusted prevalence rates"
+      },
+      "Confounders": {
+        "variables": [
+          "Traditional DKD risk factors"
+        ],
+        "adjustment_method": "Multivariable regression"
+      },
+      "study_design": "Retrospective cohort study",
+      "sample_size": "15,683",
+      "causal_question": "Do racial/ethnic differences affect the prevalence of proteinuric and nonproteinuric diabetic kidney disease in patients with type 2 diabetes, compared to non-Hispanic whites, after adjusting for traditional DKD risk factors?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "23238659",
+        "extracted": "2026-03-04T16:04:40.490335",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "23238659-population",
+          "name": "Population (P)",
+          "description": "Patients with type 2 diabetes",
+          "demographics": "Non-Hispanic white, Asian (Asian Indian, Chinese, and Filipino), Hispanic, and non-Hispanic black, with age and sex reported",
+          "setting": "Outpatient health care organization in the United States"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "23238659-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "Racial/ethnic group"
+            }
+          ],
+          "description": "Racial/ethnic differences"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "23238659-comparison",
+          "name": "Comparison (C)",
+          "description": "Non-Hispanic white (NHW) group",
+          "type": "Reference group"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "23238659-outcome",
+          "name": "Outcome (O)",
+          "description": "Prevalence of proteinuric and nonproteinuric diabetic kidney disease (DKD)",
+          "secondary_outcomes": [
+            "Odds ratios of DKD in racial/ethnic minorities relative to NHWs"
+          ],
+          "measurement": "Directly standardized age- and sex-adjusted prevalence rates",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "23238659-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "Traditional DKD risk factors"
+            }
+          ],
+          "description": "Multivariable regression"
+        }
+      ],
+      "study_design": "Retrospective cohort study",
+      "sample_size": "15,683",
+      "causal_question": "Do racial/ethnic differences affect the prevalence of proteinuric and nonproteinuric diabetic kidney disease in patients with type 2 diabetes, compared to non-Hispanic whites, after adjusting for traditional DKD risk factors?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:04:40.490351"
+  },
+  "23811246": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"consecutive patients undergoing outpatient colonoscopies\",\n    \"demographics\": \"mean age 60.6 years, 93.8% male\",\n    \"setting\": \"Veterans Affairs Medical Center in Indianapolis, Indiana\"\n  },\n  \"I\": {\n    \"variables\": [\"body mass index (BMI)\"],\n    \"description\": \"BMI as a potential risk factor for inadequate bowel preparation\"\n  },\n  \"C\": {\n    \"description\": \"patients with lower BMI (< 30 kg/m2)\",\n    \"type\": \"unexposed group\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"quality of bowel preparation (adequate or inadequate)\",\n    \"secondary_outcomes\": [\"adenoma detection rates\"],\n    \"measurement\": \"Aronchick scale\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"use of tobacco\", \"use of narcotics\", \"hypertension\", \"diabetes\", \"dementia\"],\n    \"adjustment_method\": \"multivariable regression\"\n  },\n  \"study_design\": \"retrospective cohort study\",\n  \"sample_size\": \"2163 patients\",\n  \"causal_question\": \"Does a higher body mass index (BMI) affect the quality of bowel preparation in patients undergoing colonoscopy, compared to those with lower BMI, after adjusting for confounders?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "consecutive patients undergoing outpatient colonoscopies",
+        "demographics": "mean age 60.6 years, 93.8% male",
+        "setting": "Veterans Affairs Medical Center in Indianapolis, Indiana"
+      },
+      "I": {
+        "variables": [
+          "body mass index (BMI)"
+        ],
+        "description": "BMI as a potential risk factor for inadequate bowel preparation"
+      },
+      "C": {
+        "description": "patients with lower BMI (< 30 kg/m2)",
+        "type": "unexposed group"
+      },
+      "O": {
+        "primary_outcome": "quality of bowel preparation (adequate or inadequate)",
+        "secondary_outcomes": [
+          "adenoma detection rates"
+        ],
+        "measurement": "Aronchick scale"
+      },
+      "Confounders": {
+        "variables": [
+          "use of tobacco",
+          "use of narcotics",
+          "hypertension",
+          "diabetes",
+          "dementia"
+        ],
+        "adjustment_method": "multivariable regression"
+      },
+      "study_design": "retrospective cohort study",
+      "sample_size": "2163 patients",
+      "causal_question": "Does a higher body mass index (BMI) affect the quality of bowel preparation in patients undergoing colonoscopy, compared to those with lower BMI, after adjusting for confounders?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "23811246",
+        "extracted": "2026-03-04T16:05:02.704069",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "23811246-population",
+          "name": "Population (P)",
+          "description": "consecutive patients undergoing outpatient colonoscopies",
+          "demographics": "mean age 60.6 years, 93.8% male",
+          "setting": "Veterans Affairs Medical Center in Indianapolis, Indiana"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "23811246-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "body mass index (BMI)"
+            }
+          ],
+          "description": "BMI as a potential risk factor for inadequate bowel preparation"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "23811246-comparison",
+          "name": "Comparison (C)",
+          "description": "patients with lower BMI (< 30 kg/m2)",
+          "type": "unexposed group"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "23811246-outcome",
+          "name": "Outcome (O)",
+          "description": "quality of bowel preparation (adequate or inadequate)",
+          "secondary_outcomes": [
+            "adenoma detection rates"
+          ],
+          "measurement": "Aronchick scale",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "23811246-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "use of tobacco"
+            },
+            {
+              "description": "use of narcotics"
+            },
+            {
+              "description": "hypertension"
+            },
+            {
+              "description": "diabetes"
+            },
+            {
+              "description": "dementia"
+            }
+          ],
+          "description": "multivariable regression"
+        }
+      ],
+      "study_design": "retrospective cohort study",
+      "sample_size": "2163 patients",
+      "causal_question": "Does a higher body mass index (BMI) affect the quality of bowel preparation in patients undergoing colonoscopy, compared to those with lower BMI, after adjusting for confounders?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:05:02.704081"
+  },
+  "24972918": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Patients with painful musculoskeletal metastatic disease\",\n    \"demographics\": \"not specified in detail, but includes cancer patients\",\n    \"setting\": \"single-center experience at a hospital, specifically the Department of Radiology and Imaging Sciences\"\n  },\n  \"I\": {\n    \"variables\": [\"CT-guided percutaneous cryoablation\"],\n    \"description\": \"image-guided thermal ablation technique using cryoprobes\"\n  },\n  \"C\": {\n    \"description\": \"no explicit comparison group, but implies comparison to pre-ablation state or other treatments like radiation or surgery\",\n    \"type\": \"no treatment or alternative treatments\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"change in pain scores (utilizing the visual analog scale) and analgesic requirements (expressed as morphine equivalent dosages)\",\n    \"secondary_outcomes\": [\"complications during the 24 h following the procedure and at 3 months\", \"subsequent therapies (including radiation and/or surgery)\"],\n    \"measurement\": \"electronic medical records review, including visual analog scale for pain and morphine equivalent dosages for analgesic requirements\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"patient comorbidities\", \"ability to position on the table\", \"predicted tolerance of the procedure\"],\n    \"adjustment_method\": \"not explicitly stated, but an intent-to-treat analysis was performed\"\n  },\n  \"study_design\": \"retrospective cohort study\",\n  \"sample_size\": \"54 tumors in 50 patients\",\n  \"causal_question\": \"Does CT-guided percutaneous cryoablation affect pain scores and analgesic requirements in patients with painful musculoskeletal metastatic disease, compared to their pre-ablation state or alternative treatments, after adjusting for patient comorbidities and other factors?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Patients with painful musculoskeletal metastatic disease",
+        "demographics": "not specified in detail, but includes cancer patients",
+        "setting": "single-center experience at a hospital, specifically the Department of Radiology and Imaging Sciences"
+      },
+      "I": {
+        "variables": [
+          "CT-guided percutaneous cryoablation"
+        ],
+        "description": "image-guided thermal ablation technique using cryoprobes"
+      },
+      "C": {
+        "description": "no explicit comparison group, but implies comparison to pre-ablation state or other treatments like radiation or surgery",
+        "type": "no treatment or alternative treatments"
+      },
+      "O": {
+        "primary_outcome": "change in pain scores (utilizing the visual analog scale) and analgesic requirements (expressed as morphine equivalent dosages)",
+        "secondary_outcomes": [
+          "complications during the 24 h following the procedure and at 3 months",
+          "subsequent therapies (including radiation and/or surgery)"
+        ],
+        "measurement": "electronic medical records review, including visual analog scale for pain and morphine equivalent dosages for analgesic requirements"
+      },
+      "Confounders": {
+        "variables": [
+          "patient comorbidities",
+          "ability to position on the table",
+          "predicted tolerance of the procedure"
+        ],
+        "adjustment_method": "not explicitly stated, but an intent-to-treat analysis was performed"
+      },
+      "study_design": "retrospective cohort study",
+      "sample_size": "54 tumors in 50 patients",
+      "causal_question": "Does CT-guided percutaneous cryoablation affect pain scores and analgesic requirements in patients with painful musculoskeletal metastatic disease, compared to their pre-ablation state or alternative treatments, after adjusting for patient comorbidities and other factors?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "24972918",
+        "extracted": "2026-03-04T16:05:23.077301",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "24972918-population",
+          "name": "Population (P)",
+          "description": "Patients with painful musculoskeletal metastatic disease",
+          "demographics": "not specified in detail, but includes cancer patients",
+          "setting": "single-center experience at a hospital, specifically the Department of Radiology and Imaging Sciences"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "24972918-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "CT-guided percutaneous cryoablation"
+            }
+          ],
+          "description": "image-guided thermal ablation technique using cryoprobes"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "24972918-comparison",
+          "name": "Comparison (C)",
+          "description": "no explicit comparison group, but implies comparison to pre-ablation state or other treatments like radiation or surgery",
+          "type": "no treatment or alternative treatments"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "24972918-outcome",
+          "name": "Outcome (O)",
+          "description": "change in pain scores (utilizing the visual analog scale) and analgesic requirements (expressed as morphine equivalent dosages)",
+          "secondary_outcomes": [
+            "complications during the 24 h following the procedure and at 3 months",
+            "subsequent therapies (including radiation and/or surgery)"
+          ],
+          "measurement": "electronic medical records review, including visual analog scale for pain and morphine equivalent dosages for analgesic requirements",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "24972918-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "patient comorbidities"
+            },
+            {
+              "description": "ability to position on the table"
+            },
+            {
+              "description": "predicted tolerance of the procedure"
+            }
+          ],
+          "description": "not explicitly stated, but an intent-to-treat analysis was performed"
+        }
+      ],
+      "study_design": "retrospective cohort study",
+      "sample_size": "54 tumors in 50 patients",
+      "causal_question": "Does CT-guided percutaneous cryoablation affect pain scores and analgesic requirements in patients with painful musculoskeletal metastatic disease, compared to their pre-ablation state or alternative treatments, after adjusting for patient comorbidities and other factors?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:05:23.077311"
+  },
+  "28122760": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Patients with incident gout in the UK general population\",\n    \"demographics\": \"18-89 years of age\",\n    \"setting\": \"UK general population, primary care\"\n  },\n  \"I\": {\n    \"variables\": [\"Gout diagnosis\"],\n    \"description\": \"Incident gout diagnosis\"\n  },\n  \"C\": {\n    \"description\": \"Individuals with no gout\",\n    \"type\": \"Unexposed group\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"All-cause mortality\",\n    \"secondary_outcomes\": [\"Excess mortality\"],\n    \"measurement\": \"Mortality rates and hazard ratios (HRs)\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"Age\", \"Sex\", \"Comorbidities\"],\n    \"adjustment_method\": \"Multivariable regression\"\n  },\n  \"study_design\": \"Matched cohort study\",\n  \"sample_size\": \"Over 10 million patients\",\n  \"causal_question\": \"Does having gout affect all-cause mortality in the UK general population, compared to those without gout, after adjusting for potential confounders?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Patients with incident gout in the UK general population",
+        "demographics": "18-89 years of age",
+        "setting": "UK general population, primary care"
+      },
+      "I": {
+        "variables": [
+          "Gout diagnosis"
+        ],
+        "description": "Incident gout diagnosis"
+      },
+      "C": {
+        "description": "Individuals with no gout",
+        "type": "Unexposed group"
+      },
+      "O": {
+        "primary_outcome": "All-cause mortality",
+        "secondary_outcomes": [
+          "Excess mortality"
+        ],
+        "measurement": "Mortality rates and hazard ratios (HRs)"
+      },
+      "Confounders": {
+        "variables": [
+          "Age",
+          "Sex",
+          "Comorbidities"
+        ],
+        "adjustment_method": "Multivariable regression"
+      },
+      "study_design": "Matched cohort study",
+      "sample_size": "Over 10 million patients",
+      "causal_question": "Does having gout affect all-cause mortality in the UK general population, compared to those without gout, after adjusting for potential confounders?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "28122760",
+        "extracted": "2026-03-04T16:05:44.031445",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28122760-population",
+          "name": "Population (P)",
+          "description": "Patients with incident gout in the UK general population",
+          "demographics": "18-89 years of age",
+          "setting": "UK general population, primary care"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28122760-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "Gout diagnosis"
+            }
+          ],
+          "description": "Incident gout diagnosis"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28122760-comparison",
+          "name": "Comparison (C)",
+          "description": "Individuals with no gout",
+          "type": "Unexposed group"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28122760-outcome",
+          "name": "Outcome (O)",
+          "description": "All-cause mortality",
+          "secondary_outcomes": [
+            "Excess mortality"
+          ],
+          "measurement": "Mortality rates and hazard ratios (HRs)",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28122760-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "Age"
+            },
+            {
+              "description": "Sex"
+            },
+            {
+              "description": "Comorbidities"
+            }
+          ],
+          "description": "Multivariable regression"
+        }
+      ],
+      "study_design": "Matched cohort study",
+      "sample_size": "Over 10 million patients",
+      "causal_question": "Does having gout affect all-cause mortality in the UK general population, compared to those without gout, after adjusting for potential confounders?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:05:44.031463"
+  },
+  "28319547": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"patients with acute traumatic spinal cord injury (TSCI)\",\n    \"demographics\": \"age, sex, weight, race\",\n    \"setting\": \"regional, level I trauma center\"\n  },\n  \"I\": {\n    \"variables\": [\"methylprednisolone (MP) therapy\"],\n    \"description\": \"exposure to methylprednisolone\"\n  },\n  \"C\": {\n    \"description\": \"nonrecipients of methylprednisolone\",\n    \"type\": \"no treatment\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"rehabilitation discharge in American Spinal Injury Association (ASIA) motor scores and Functional Independence Measure (FIM) motor scores\",\n    \"secondary_outcomes\": [\"infection risk\", \"gastrointestinal (GI) complications\"],\n    \"measurement\": \"multivariable linear regression\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"age\", \"sex\", \"weight\", \"race\", \"baseline motor score\", \"surgical intervention\", \"injury level\", \"ASIA Impairment Scale (AIS) grade\", \"education\", \"insurance status\"],\n    \"adjustment_method\": \"multivariable linear regression\"\n  },\n  \"study_design\": \"retrospective cohort study\",\n  \"sample_size\": \"311 patients\",\n  \"causal_question\": \"Does methylprednisolone therapy affect improvements in motor function among patients with acute traumatic spinal cord injury, compared to nonrecipients, after adjusting for confounders?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "patients with acute traumatic spinal cord injury (TSCI)",
+        "demographics": "age, sex, weight, race",
+        "setting": "regional, level I trauma center"
+      },
+      "I": {
+        "variables": [
+          "methylprednisolone (MP) therapy"
+        ],
+        "description": "exposure to methylprednisolone"
+      },
+      "C": {
+        "description": "nonrecipients of methylprednisolone",
+        "type": "no treatment"
+      },
+      "O": {
+        "primary_outcome": "rehabilitation discharge in American Spinal Injury Association (ASIA) motor scores and Functional Independence Measure (FIM) motor scores",
+        "secondary_outcomes": [
+          "infection risk",
+          "gastrointestinal (GI) complications"
+        ],
+        "measurement": "multivariable linear regression"
+      },
+      "Confounders": {
+        "variables": [
+          "age",
+          "sex",
+          "weight",
+          "race",
+          "baseline motor score",
+          "surgical intervention",
+          "injury level",
+          "ASIA Impairment Scale (AIS) grade",
+          "education",
+          "insurance status"
+        ],
+        "adjustment_method": "multivariable linear regression"
+      },
+      "study_design": "retrospective cohort study",
+      "sample_size": "311 patients",
+      "causal_question": "Does methylprednisolone therapy affect improvements in motor function among patients with acute traumatic spinal cord injury, compared to nonrecipients, after adjusting for confounders?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "28319547",
+        "extracted": "2026-03-04T16:06:08.091917",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28319547-population",
+          "name": "Population (P)",
+          "description": "patients with acute traumatic spinal cord injury (TSCI)",
+          "demographics": "age, sex, weight, race",
+          "setting": "regional, level I trauma center"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28319547-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "methylprednisolone (MP) therapy"
+            }
+          ],
+          "description": "exposure to methylprednisolone"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28319547-comparison",
+          "name": "Comparison (C)",
+          "description": "nonrecipients of methylprednisolone",
+          "type": "no treatment"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28319547-outcome",
+          "name": "Outcome (O)",
+          "description": "rehabilitation discharge in American Spinal Injury Association (ASIA) motor scores and Functional Independence Measure (FIM) motor scores",
+          "secondary_outcomes": [
+            "infection risk",
+            "gastrointestinal (GI) complications"
+          ],
+          "measurement": "multivariable linear regression",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28319547-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "age"
+            },
+            {
+              "description": "sex"
+            },
+            {
+              "description": "weight"
+            },
+            {
+              "description": "race"
+            },
+            {
+              "description": "baseline motor score"
+            },
+            {
+              "description": "surgical intervention"
+            },
+            {
+              "description": "injury level"
+            },
+            {
+              "description": "ASIA Impairment Scale (AIS) grade"
+            },
+            {
+              "description": "education"
+            },
+            {
+              "description": "insurance status"
+            }
+          ],
+          "description": "multivariable linear regression"
+        }
+      ],
+      "study_design": "retrospective cohort study",
+      "sample_size": "311 patients",
+      "causal_question": "Does methylprednisolone therapy affect improvements in motor function among patients with acute traumatic spinal cord injury, compared to nonrecipients, after adjusting for confounders?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:06:08.091942"
+  },
+  "28472213": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"patients with uveitis and controls from the Kaiser Permanente Hawaii health system\",\n    \"demographics\": \"mean age 54.1 years, 56.7% women, no specific race/ethnicity reported\",\n    \"setting\": \"clinical setting, Kaiser Permanente Hawaii health system\"\n  },\n  \"I\": {\n    \"variables\": [\"thyroid disease\"],\n    \"description\": \"presence of thyroid disease\"\n  },\n  \"C\": {\n    \"description\": \"patients without thyroid disease\",\n    \"type\": \"unexposed group\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"diagnosis of uveitis\",\n    \"secondary_outcomes\": [\"odds ratio of having uveitis among patients with thyroid disease\"],\n    \"measurement\": \"electronic medical record review and individual medical record review for confirmation by a uveitis specialist\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"age\", \"sex\", \"race\", \"smoking status\", \"history of autoimmune disease\"],\n    \"adjustment_method\": \"multivariable logistic regression\"\n  },\n  \"study_design\": \"retrospective case-control study\",\n  \"sample_size\": \"224 patients with uveitis and 896 controls\",\n  \"causal_question\": \"Does thyroid disease affect the risk of uveitis in the study population, compared to those without thyroid disease, after adjusting for age, sex, race, smoking status, and history of autoimmune disease?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "patients with uveitis and controls from the Kaiser Permanente Hawaii health system",
+        "demographics": "mean age 54.1 years, 56.7% women, no specific race/ethnicity reported",
+        "setting": "clinical setting, Kaiser Permanente Hawaii health system"
+      },
+      "I": {
+        "variables": [
+          "thyroid disease"
+        ],
+        "description": "presence of thyroid disease"
+      },
+      "C": {
+        "description": "patients without thyroid disease",
+        "type": "unexposed group"
+      },
+      "O": {
+        "primary_outcome": "diagnosis of uveitis",
+        "secondary_outcomes": [
+          "odds ratio of having uveitis among patients with thyroid disease"
+        ],
+        "measurement": "electronic medical record review and individual medical record review for confirmation by a uveitis specialist"
+      },
+      "Confounders": {
+        "variables": [
+          "age",
+          "sex",
+          "race",
+          "smoking status",
+          "history of autoimmune disease"
+        ],
+        "adjustment_method": "multivariable logistic regression"
+      },
+      "study_design": "retrospective case-control study",
+      "sample_size": "224 patients with uveitis and 896 controls",
+      "causal_question": "Does thyroid disease affect the risk of uveitis in the study population, compared to those without thyroid disease, after adjusting for age, sex, race, smoking status, and history of autoimmune disease?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "28472213",
+        "extracted": "2026-03-04T16:06:30.157772",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28472213-population",
+          "name": "Population (P)",
+          "description": "patients with uveitis and controls from the Kaiser Permanente Hawaii health system",
+          "demographics": "mean age 54.1 years, 56.7% women, no specific race/ethnicity reported",
+          "setting": "clinical setting, Kaiser Permanente Hawaii health system"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28472213-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "thyroid disease"
+            }
+          ],
+          "description": "presence of thyroid disease"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28472213-comparison",
+          "name": "Comparison (C)",
+          "description": "patients without thyroid disease",
+          "type": "unexposed group"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28472213-outcome",
+          "name": "Outcome (O)",
+          "description": "diagnosis of uveitis",
+          "secondary_outcomes": [
+            "odds ratio of having uveitis among patients with thyroid disease"
+          ],
+          "measurement": "electronic medical record review and individual medical record review for confirmation by a uveitis specialist",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28472213-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "age"
+            },
+            {
+              "description": "sex"
+            },
+            {
+              "description": "race"
+            },
+            {
+              "description": "smoking status"
+            },
+            {
+              "description": "history of autoimmune disease"
+            }
+          ],
+          "description": "multivariable logistic regression"
+        }
+      ],
+      "study_design": "retrospective case-control study",
+      "sample_size": "224 patients with uveitis and 896 controls",
+      "causal_question": "Does thyroid disease affect the risk of uveitis in the study population, compared to those without thyroid disease, after adjusting for age, sex, race, smoking status, and history of autoimmune disease?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:06:30.157798"
+  },
+  "28475259": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"adults undergoing myocardial perfusion imaging\",\n    \"demographics\": \"older than 18 years\",\n    \"setting\": \"large community teaching hospital\"\n  },\n  \"I\": {\n    \"variables\": [\"regadenoson\", \"dipyridamole\"],\n    \"description\": \"vasodilator agents used in myocardial perfusion imaging\"\n  },\n  \"C\": {\n    \"description\": \"comparison between regadenoson and dipyridamole groups\",\n    \"type\": \"active comparator\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"composite occurrence of any documented adverse event\",\n    \"secondary_outcomes\": [\"reason for termination of the MPI examination\", \"use of interventional agents to treat adverse events\", \"cost-related outcomes\"],\n    \"measurement\": \"data collected from patients' electronic medical records\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"not explicitly stated, but potentially includes age, sex, and underlying cardiac conditions\"],\n    \"adjustment_method\": \"not explicitly stated\"\n  },\n  \"study_design\": \"retrospective cohort study\",\n  \"sample_size\": \"568 adults\",\n  \"causal_question\": \"Does the use of regadenoson versus dipyridamole affect the frequency of adverse events in adults undergoing myocardial perfusion imaging, compared to each other, after adjusting for potential confounders?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "adults undergoing myocardial perfusion imaging",
+        "demographics": "older than 18 years",
+        "setting": "large community teaching hospital"
+      },
+      "I": {
+        "variables": [
+          "regadenoson",
+          "dipyridamole"
+        ],
+        "description": "vasodilator agents used in myocardial perfusion imaging"
+      },
+      "C": {
+        "description": "comparison between regadenoson and dipyridamole groups",
+        "type": "active comparator"
+      },
+      "O": {
+        "primary_outcome": "composite occurrence of any documented adverse event",
+        "secondary_outcomes": [
+          "reason for termination of the MPI examination",
+          "use of interventional agents to treat adverse events",
+          "cost-related outcomes"
+        ],
+        "measurement": "data collected from patients' electronic medical records"
+      },
+      "Confounders": {
+        "variables": [
+          "not explicitly stated, but potentially includes age, sex, and underlying cardiac conditions"
+        ],
+        "adjustment_method": "not explicitly stated"
+      },
+      "study_design": "retrospective cohort study",
+      "sample_size": "568 adults",
+      "causal_question": "Does the use of regadenoson versus dipyridamole affect the frequency of adverse events in adults undergoing myocardial perfusion imaging, compared to each other, after adjusting for potential confounders?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "28475259",
+        "extracted": "2026-03-04T16:06:59.586295",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28475259-population",
+          "name": "Population (P)",
+          "description": "adults undergoing myocardial perfusion imaging",
+          "demographics": "older than 18 years",
+          "setting": "large community teaching hospital"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28475259-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "regadenoson"
+            },
+            {
+              "description": "dipyridamole"
+            }
+          ],
+          "description": "vasodilator agents used in myocardial perfusion imaging"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28475259-comparison",
+          "name": "Comparison (C)",
+          "description": "comparison between regadenoson and dipyridamole groups",
+          "type": "active comparator"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28475259-outcome",
+          "name": "Outcome (O)",
+          "description": "composite occurrence of any documented adverse event",
+          "secondary_outcomes": [
+            "reason for termination of the MPI examination",
+            "use of interventional agents to treat adverse events",
+            "cost-related outcomes"
+          ],
+          "measurement": "data collected from patients' electronic medical records",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28475259-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "not explicitly stated, but potentially includes age, sex, and underlying cardiac conditions"
+            }
+          ],
+          "description": "not explicitly stated"
+        }
+      ],
+      "study_design": "retrospective cohort study",
+      "sample_size": "568 adults",
+      "causal_question": "Does the use of regadenoson versus dipyridamole affect the frequency of adverse events in adults undergoing myocardial perfusion imaging, compared to each other, after adjusting for potential confounders?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:06:59.586336"
+  },
+  "28886989": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Patients with symptomatic left iliocaval venous obstruction\",\n    \"demographics\": \"median age 46, 80% female\",\n    \"setting\": \"two hospitals: Galway University Hospital, Ireland and CHU Nord, Marseille, France\"\n  },\n  \"I\": {\n    \"variables\": [\"iliocaval venous stenting\"],\n    \"description\": \"placement of iliac venous stents across the iliocaval confluence\"\n  },\n  \"C\": {\n    \"description\": \"no stenting or unexposed group (implied by the study of post-stenting complications)\",\n    \"type\": \"unexposed\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"contralateral deep venous thrombosis (DVT)\",\n    \"secondary_outcomes\": [\"primary patency of the limbs\", \"results of salvage revascularisation\"],\n    \"measurement\": \"Kaplan-Meier analysis, duplex ultrasound scanning, computed tomographic venography\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"acute DVT\", \"pre-operative contralateral internal iliac vein thrombosis\", \"pre-existing IVC filters\", \"anticoagulation non-compliance\"],\n    \"adjustment_method\": \"statistical analysis (p-values reported)\"\n  },\n  \"study_design\": \"retrospective cohort study\",\n  \"sample_size\": \"376 patients\",\n  \"causal_question\": \"Does iliocaval venous stenting increase the risk of contralateral deep venous thrombosis in patients with symptomatic left iliocaval venous obstruction, compared to no stenting, after adjusting for confounders?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Patients with symptomatic left iliocaval venous obstruction",
+        "demographics": "median age 46, 80% female",
+        "setting": "two hospitals: Galway University Hospital, Ireland and CHU Nord, Marseille, France"
+      },
+      "I": {
+        "variables": [
+          "iliocaval venous stenting"
+        ],
+        "description": "placement of iliac venous stents across the iliocaval confluence"
+      },
+      "C": {
+        "description": "no stenting or unexposed group (implied by the study of post-stenting complications)",
+        "type": "unexposed"
+      },
+      "O": {
+        "primary_outcome": "contralateral deep venous thrombosis (DVT)",
+        "secondary_outcomes": [
+          "primary patency of the limbs",
+          "results of salvage revascularisation"
+        ],
+        "measurement": "Kaplan-Meier analysis, duplex ultrasound scanning, computed tomographic venography"
+      },
+      "Confounders": {
+        "variables": [
+          "acute DVT",
+          "pre-operative contralateral internal iliac vein thrombosis",
+          "pre-existing IVC filters",
+          "anticoagulation non-compliance"
+        ],
+        "adjustment_method": "statistical analysis (p-values reported)"
+      },
+      "study_design": "retrospective cohort study",
+      "sample_size": "376 patients",
+      "causal_question": "Does iliocaval venous stenting increase the risk of contralateral deep venous thrombosis in patients with symptomatic left iliocaval venous obstruction, compared to no stenting, after adjusting for confounders?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "28886989",
+        "extracted": "2026-03-04T16:07:25.857410",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28886989-population",
+          "name": "Population (P)",
+          "description": "Patients with symptomatic left iliocaval venous obstruction",
+          "demographics": "median age 46, 80% female",
+          "setting": "two hospitals: Galway University Hospital, Ireland and CHU Nord, Marseille, France"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28886989-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "iliocaval venous stenting"
+            }
+          ],
+          "description": "placement of iliac venous stents across the iliocaval confluence"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28886989-comparison",
+          "name": "Comparison (C)",
+          "description": "no stenting or unexposed group (implied by the study of post-stenting complications)",
+          "type": "unexposed"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28886989-outcome",
+          "name": "Outcome (O)",
+          "description": "contralateral deep venous thrombosis (DVT)",
+          "secondary_outcomes": [
+            "primary patency of the limbs",
+            "results of salvage revascularisation"
+          ],
+          "measurement": "Kaplan-Meier analysis, duplex ultrasound scanning, computed tomographic venography",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "28886989-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "acute DVT"
+            },
+            {
+              "description": "pre-operative contralateral internal iliac vein thrombosis"
+            },
+            {
+              "description": "pre-existing IVC filters"
+            },
+            {
+              "description": "anticoagulation non-compliance"
+            }
+          ],
+          "description": "statistical analysis (p-values reported)"
+        }
+      ],
+      "study_design": "retrospective cohort study",
+      "sample_size": "376 patients",
+      "causal_question": "Does iliocaval venous stenting increase the risk of contralateral deep venous thrombosis in patients with symptomatic left iliocaval venous obstruction, compared to no stenting, after adjusting for confounders?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:07:25.857430"
+  },
+  "29264632": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Adults with type 1 or type 2 diabetes\",\n    \"demographics\": \"mean age 69.4 years, range 16-89, similar occurrence by sex\",\n    \"setting\": \"primary-care-based cohort in the UK\"\n  },\n  \"I\": {\n    \"variables\": [\"social deprivation index\"],\n    \"description\": \"social deprivation as measured by the Townsend index score\"\n  },\n  \"C\": {\n    \"description\": \"individuals without social deprivation or foot ulcers\",\n    \"type\": \"unexposed group\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"new foot ulceration and all-cause mortality\",\n    \"secondary_outcomes\": [\"incidence of foot ulceration\", \"mortality rate\"],\n    \"measurement\": \"Cox proportional hazard models\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"age\", \"sex\", \"diabetes type\", \"smoking status\", \"hypertension\", \"statin use\", \"\u03b2-blocker use\", \"metformin use\", \"HbA1c levels\", \"insulin use\"],\n    \"adjustment_method\": \"multivariable Cox regression analyses\"\n  },\n  \"study_design\": \"retrospective cohort study\",\n  \"sample_size\": \"13,955 adults with type 1 (n = 1370) or type 2 (n = 12,585) diabetes\",\n  \"causal_question\": \"Does social deprivation affect the risk of foot ulceration and mortality in adults with type 1 or type 2 diabetes, compared to those without social deprivation, after adjusting for confounders?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Adults with type 1 or type 2 diabetes",
+        "demographics": "mean age 69.4 years, range 16-89, similar occurrence by sex",
+        "setting": "primary-care-based cohort in the UK"
+      },
+      "I": {
+        "variables": [
+          "social deprivation index"
+        ],
+        "description": "social deprivation as measured by the Townsend index score"
+      },
+      "C": {
+        "description": "individuals without social deprivation or foot ulcers",
+        "type": "unexposed group"
+      },
+      "O": {
+        "primary_outcome": "new foot ulceration and all-cause mortality",
+        "secondary_outcomes": [
+          "incidence of foot ulceration",
+          "mortality rate"
+        ],
+        "measurement": "Cox proportional hazard models"
+      },
+      "Confounders": {
+        "variables": [
+          "age",
+          "sex",
+          "diabetes type",
+          "smoking status",
+          "hypertension",
+          "statin use",
+          "\u03b2-blocker use",
+          "metformin use",
+          "HbA1c levels",
+          "insulin use"
+        ],
+        "adjustment_method": "multivariable Cox regression analyses"
+      },
+      "study_design": "retrospective cohort study",
+      "sample_size": "13,955 adults with type 1 (n = 1370) or type 2 (n = 12,585) diabetes",
+      "causal_question": "Does social deprivation affect the risk of foot ulceration and mortality in adults with type 1 or type 2 diabetes, compared to those without social deprivation, after adjusting for confounders?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "29264632",
+        "extracted": "2026-03-04T16:07:47.629121",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29264632-population",
+          "name": "Population (P)",
+          "description": "Adults with type 1 or type 2 diabetes",
+          "demographics": "mean age 69.4 years, range 16-89, similar occurrence by sex",
+          "setting": "primary-care-based cohort in the UK"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29264632-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "social deprivation index"
+            }
+          ],
+          "description": "social deprivation as measured by the Townsend index score"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29264632-comparison",
+          "name": "Comparison (C)",
+          "description": "individuals without social deprivation or foot ulcers",
+          "type": "unexposed group"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29264632-outcome",
+          "name": "Outcome (O)",
+          "description": "new foot ulceration and all-cause mortality",
+          "secondary_outcomes": [
+            "incidence of foot ulceration",
+            "mortality rate"
+          ],
+          "measurement": "Cox proportional hazard models",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29264632-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "age"
+            },
+            {
+              "description": "sex"
+            },
+            {
+              "description": "diabetes type"
+            },
+            {
+              "description": "smoking status"
+            },
+            {
+              "description": "hypertension"
+            },
+            {
+              "description": "statin use"
+            },
+            {
+              "description": "\u03b2-blocker use"
+            },
+            {
+              "description": "metformin use"
+            },
+            {
+              "description": "HbA1c levels"
+            },
+            {
+              "description": "insulin use"
+            }
+          ],
+          "description": "multivariable Cox regression analyses"
+        }
+      ],
+      "study_design": "retrospective cohort study",
+      "sample_size": "13,955 adults with type 1 (n = 1370) or type 2 (n = 12,585) diabetes",
+      "causal_question": "Does social deprivation affect the risk of foot ulceration and mortality in adults with type 1 or type 2 diabetes, compared to those without social deprivation, after adjusting for confounders?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:07:47.629146"
+  },
+  "29305022": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Patients presenting to the Emergency Department (ED) for acute ethanol intoxication\",\n    \"demographics\": \"median age 37 years, 69% male\",\n    \"setting\": \"6 different EDs, including a county Level 1 trauma center, urban university medical centers, suburban community hospitals, and a rural community hospital\"\n  },\n  \"I\": {\n    \"variables\": [\"use of parenteral sedation\", \"laboratory testing\", \"hour of arrival to the ED\"],\n    \"description\": \"Factors associated with ED length of stay (LOS) for ethanol intoxication encounters\"\n  },\n  \"C\": {\n    \"description\": \"No specific control group, but rather a comparison of factors associated with increased ED LOS\",\n    \"type\": \"unexposed or less exposed groups (e.g., those not receiving parenteral sedation or laboratory testing)\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"ED length of stay (LOS)\",\n    \"secondary_outcomes\": [\"factors associated with increased ED LOS\"],\n    \"measurement\": \"Mixed-effects generalized linear model\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"age\", \"gender\", \"ethanol concentration\", \"psychiatric disposition\", \"frequency of ED visits for ethanol intoxication\", \"CT use\", \"daily ED volume\"],\n    \"adjustment_method\": \"Mixed-effects generalized linear model\"\n  },\n  \"study_design\": \"Retrospective, multi-center, observational cohort study\",\n  \"sample_size\": \"18,664 eligible patients\",\n  \"causal_question\": \"Do factors such as parenteral sedation, laboratory testing, and hour of arrival affect ED length of stay in patients with acute ethanol intoxication, compared to those without these exposures, after adjusting for confounders?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Patients presenting to the Emergency Department (ED) for acute ethanol intoxication",
+        "demographics": "median age 37 years, 69% male",
+        "setting": "6 different EDs, including a county Level 1 trauma center, urban university medical centers, suburban community hospitals, and a rural community hospital"
+      },
+      "I": {
+        "variables": [
+          "use of parenteral sedation",
+          "laboratory testing",
+          "hour of arrival to the ED"
+        ],
+        "description": "Factors associated with ED length of stay (LOS) for ethanol intoxication encounters"
+      },
+      "C": {
+        "description": "No specific control group, but rather a comparison of factors associated with increased ED LOS",
+        "type": "unexposed or less exposed groups (e.g., those not receiving parenteral sedation or laboratory testing)"
+      },
+      "O": {
+        "primary_outcome": "ED length of stay (LOS)",
+        "secondary_outcomes": [
+          "factors associated with increased ED LOS"
+        ],
+        "measurement": "Mixed-effects generalized linear model"
+      },
+      "Confounders": {
+        "variables": [
+          "age",
+          "gender",
+          "ethanol concentration",
+          "psychiatric disposition",
+          "frequency of ED visits for ethanol intoxication",
+          "CT use",
+          "daily ED volume"
+        ],
+        "adjustment_method": "Mixed-effects generalized linear model"
+      },
+      "study_design": "Retrospective, multi-center, observational cohort study",
+      "sample_size": "18,664 eligible patients",
+      "causal_question": "Do factors such as parenteral sedation, laboratory testing, and hour of arrival affect ED length of stay in patients with acute ethanol intoxication, compared to those without these exposures, after adjusting for confounders?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "29305022",
+        "extracted": "2026-03-04T16:08:12.078950",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29305022-population",
+          "name": "Population (P)",
+          "description": "Patients presenting to the Emergency Department (ED) for acute ethanol intoxication",
+          "demographics": "median age 37 years, 69% male",
+          "setting": "6 different EDs, including a county Level 1 trauma center, urban university medical centers, suburban community hospitals, and a rural community hospital"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29305022-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "use of parenteral sedation"
+            },
+            {
+              "description": "laboratory testing"
+            },
+            {
+              "description": "hour of arrival to the ED"
+            }
+          ],
+          "description": "Factors associated with ED length of stay (LOS) for ethanol intoxication encounters"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29305022-comparison",
+          "name": "Comparison (C)",
+          "description": "No specific control group, but rather a comparison of factors associated with increased ED LOS",
+          "type": "unexposed or less exposed groups (e.g., those not receiving parenteral sedation or laboratory testing)"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29305022-outcome",
+          "name": "Outcome (O)",
+          "description": "ED length of stay (LOS)",
+          "secondary_outcomes": [
+            "factors associated with increased ED LOS"
+          ],
+          "measurement": "Mixed-effects generalized linear model",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29305022-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "age"
+            },
+            {
+              "description": "gender"
+            },
+            {
+              "description": "ethanol concentration"
+            },
+            {
+              "description": "psychiatric disposition"
+            },
+            {
+              "description": "frequency of ED visits for ethanol intoxication"
+            },
+            {
+              "description": "CT use"
+            },
+            {
+              "description": "daily ED volume"
+            }
+          ],
+          "description": "Mixed-effects generalized linear model"
+        }
+      ],
+      "study_design": "Retrospective, multi-center, observational cohort study",
+      "sample_size": "18,664 eligible patients",
+      "causal_question": "Do factors such as parenteral sedation, laboratory testing, and hour of arrival affect ED length of stay in patients with acute ethanol intoxication, compared to those without these exposures, after adjusting for confounders?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:08:12.078969"
+  },
+  "29539612": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Patients with ischemic stroke and Chagas disease\",\n    \"demographics\": \"mean age 61, 10% frequency of death, no specific sex or race/ethnicity reported\",\n    \"setting\": \"Rehabilitation hospitals across Brazil\"\n  },\n  \"I\": {\n    \"variables\": [\"Chagas disease\", \"ischemic stroke\"],\n    \"description\": \"Concomitant Chagas disease in patients with ischemic stroke\"\n  },\n  \"C\": {\n    \"description\": \"No explicit comparison group, but implied general population with ischemic stroke without Chagas disease\",\n    \"type\": \"unexposed or general population\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"Mortality\",\n    \"secondary_outcomes\": [\"Stroke recurrence\"],\n    \"measurement\": \"Cox regression analysis for mortality and logistic regression for recurrence\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"age at stroke\", \"initial modified Rankin Scale\", \"bladder dysfunction\", \"diabetes mellitus\", \"alcoholism\", \"cognitive deficit\", \"cardioembolic etiology\", \"sex\"],\n    \"adjustment_method\": \"Multivariate analysis using Cox regression and logistic regression\"\n  },\n  \"study_design\": \"Retrospective cohort study\",\n  \"sample_size\": \"279 patients\",\n  \"causal_question\": \"Does the presence of Chagas disease affect mortality and stroke recurrence in patients with ischemic stroke, compared to the general population with ischemic stroke, after adjusting for confounders?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Patients with ischemic stroke and Chagas disease",
+        "demographics": "mean age 61, 10% frequency of death, no specific sex or race/ethnicity reported",
+        "setting": "Rehabilitation hospitals across Brazil"
+      },
+      "I": {
+        "variables": [
+          "Chagas disease",
+          "ischemic stroke"
+        ],
+        "description": "Concomitant Chagas disease in patients with ischemic stroke"
+      },
+      "C": {
+        "description": "No explicit comparison group, but implied general population with ischemic stroke without Chagas disease",
+        "type": "unexposed or general population"
+      },
+      "O": {
+        "primary_outcome": "Mortality",
+        "secondary_outcomes": [
+          "Stroke recurrence"
+        ],
+        "measurement": "Cox regression analysis for mortality and logistic regression for recurrence"
+      },
+      "Confounders": {
+        "variables": [
+          "age at stroke",
+          "initial modified Rankin Scale",
+          "bladder dysfunction",
+          "diabetes mellitus",
+          "alcoholism",
+          "cognitive deficit",
+          "cardioembolic etiology",
+          "sex"
+        ],
+        "adjustment_method": "Multivariate analysis using Cox regression and logistic regression"
+      },
+      "study_design": "Retrospective cohort study",
+      "sample_size": "279 patients",
+      "causal_question": "Does the presence of Chagas disease affect mortality and stroke recurrence in patients with ischemic stroke, compared to the general population with ischemic stroke, after adjusting for confounders?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "29539612",
+        "extracted": "2026-03-04T16:08:35.727903",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29539612-population",
+          "name": "Population (P)",
+          "description": "Patients with ischemic stroke and Chagas disease",
+          "demographics": "mean age 61, 10% frequency of death, no specific sex or race/ethnicity reported",
+          "setting": "Rehabilitation hospitals across Brazil"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29539612-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "Chagas disease"
+            },
+            {
+              "description": "ischemic stroke"
+            }
+          ],
+          "description": "Concomitant Chagas disease in patients with ischemic stroke"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29539612-comparison",
+          "name": "Comparison (C)",
+          "description": "No explicit comparison group, but implied general population with ischemic stroke without Chagas disease",
+          "type": "unexposed or general population"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29539612-outcome",
+          "name": "Outcome (O)",
+          "description": "Mortality",
+          "secondary_outcomes": [
+            "Stroke recurrence"
+          ],
+          "measurement": "Cox regression analysis for mortality and logistic regression for recurrence",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29539612-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "age at stroke"
+            },
+            {
+              "description": "initial modified Rankin Scale"
+            },
+            {
+              "description": "bladder dysfunction"
+            },
+            {
+              "description": "diabetes mellitus"
+            },
+            {
+              "description": "alcoholism"
+            },
+            {
+              "description": "cognitive deficit"
+            },
+            {
+              "description": "cardioembolic etiology"
+            },
+            {
+              "description": "sex"
+            }
+          ],
+          "description": "Multivariate analysis using Cox regression and logistic regression"
+        }
+      ],
+      "study_design": "Retrospective cohort study",
+      "sample_size": "279 patients",
+      "causal_question": "Does the presence of Chagas disease affect mortality and stroke recurrence in patients with ischemic stroke, compared to the general population with ischemic stroke, after adjusting for confounders?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:08:35.727930"
+  },
+  "29669697": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"vascular surgical patients\",\n    \"demographics\": \"adults, 41.1% female, with varying ages and obesity status\",\n    \"setting\": \"tertiary vascular unit in the UK\"\n  },\n  \"I\": {\n    \"variables\": [\"sarcopaenia\"],\n    \"description\": \"loss of lean muscle mass and quality, defined as skeletal muscle index of <41 cm2/m2 in female patients and non-obese males and <53 cm2/m2 in obese males\"\n  },\n  \"C\": {\n    \"description\": \"non-sarcopaenic patients\",\n    \"type\": \"unexposed group\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"mortality\",\n    \"secondary_outcomes\": [\"non-home discharge\"],\n    \"measurement\": \"outcome at 3-years ascertained from electronic patient records and hospital case notes\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"age\", \"sex\", \"obesity status\", \"comorbidities\"],\n    \"adjustment_method\": \"multivariate analysis\"\n  },\n  \"study_design\": \"retrospective cohort study\",\n  \"sample_size\": \"314 patients\",\n  \"causal_question\": \"Does sarcopaenia affect mortality and non-home discharge in vascular surgical patients, compared to non-sarcopaenic patients, after adjusting for age, sex, obesity status, and comorbidities?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "vascular surgical patients",
+        "demographics": "adults, 41.1% female, with varying ages and obesity status",
+        "setting": "tertiary vascular unit in the UK"
+      },
+      "I": {
+        "variables": [
+          "sarcopaenia"
+        ],
+        "description": "loss of lean muscle mass and quality, defined as skeletal muscle index of <41 cm2/m2 in female patients and non-obese males and <53 cm2/m2 in obese males"
+      },
+      "C": {
+        "description": "non-sarcopaenic patients",
+        "type": "unexposed group"
+      },
+      "O": {
+        "primary_outcome": "mortality",
+        "secondary_outcomes": [
+          "non-home discharge"
+        ],
+        "measurement": "outcome at 3-years ascertained from electronic patient records and hospital case notes"
+      },
+      "Confounders": {
+        "variables": [
+          "age",
+          "sex",
+          "obesity status",
+          "comorbidities"
+        ],
+        "adjustment_method": "multivariate analysis"
+      },
+      "study_design": "retrospective cohort study",
+      "sample_size": "314 patients",
+      "causal_question": "Does sarcopaenia affect mortality and non-home discharge in vascular surgical patients, compared to non-sarcopaenic patients, after adjusting for age, sex, obesity status, and comorbidities?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "29669697",
+        "extracted": "2026-03-04T16:08:56.569001",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29669697-population",
+          "name": "Population (P)",
+          "description": "vascular surgical patients",
+          "demographics": "adults, 41.1% female, with varying ages and obesity status",
+          "setting": "tertiary vascular unit in the UK"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29669697-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "sarcopaenia"
+            }
+          ],
+          "description": "loss of lean muscle mass and quality, defined as skeletal muscle index of <41 cm2/m2 in female patients and non-obese males and <53 cm2/m2 in obese males"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29669697-comparison",
+          "name": "Comparison (C)",
+          "description": "non-sarcopaenic patients",
+          "type": "unexposed group"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29669697-outcome",
+          "name": "Outcome (O)",
+          "description": "mortality",
+          "secondary_outcomes": [
+            "non-home discharge"
+          ],
+          "measurement": "outcome at 3-years ascertained from electronic patient records and hospital case notes",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29669697-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "age"
+            },
+            {
+              "description": "sex"
+            },
+            {
+              "description": "obesity status"
+            },
+            {
+              "description": "comorbidities"
+            }
+          ],
+          "description": "multivariate analysis"
+        }
+      ],
+      "study_design": "retrospective cohort study",
+      "sample_size": "314 patients",
+      "causal_question": "Does sarcopaenia affect mortality and non-home discharge in vascular surgical patients, compared to non-sarcopaenic patients, after adjusting for age, sex, obesity status, and comorbidities?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:08:56.569042"
+  },
+  "29894495": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Adult patients with uncontrolled type 2 diabetes\",\n    \"demographics\": \"adults, with some demographic information such as Hispanic vs White patients, and male vs female patients\",\n    \"setting\": \"a large, accountable care organization (ACO) in the United States\"\n  },\n  \"I\": {\n    \"variables\": [\"timely treatment intensification\"],\n    \"description\": \"receiving treatment intensification during a 120-day window following an index HbA1c measurement\"\n  },\n  \"C\": {\n    \"description\": \"patients who did not receive timely treatment intensification\",\n    \"type\": \"no treatment intensification\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"achieving HbA1C control quality performance measures (HbA1C levels <8.0%)\",\n    \"secondary_outcomes\": [\"likelihood of receiving treatment intensification\", \"odds of achieving superior control (HbA1c level <8.0%) after treatment intensification\"],\n    \"measurement\": \"HbA1C levels, odds ratios\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"index HbA1C level\", \"patient body mass index\", \"number of unique pre-index oral antidiabetes agents\", \"patient race/ethnicity (Hispanic vs White)\", \"patient sex\", \"primary treating physician specialty (internist vs family medicine specialist)\"],\n    \"adjustment_method\": \"two-level hierarchical generalized linear models\"\n  },\n  \"study_design\": \"retrospective cohort study\",\n  \"sample_size\": \"547 patients met study selection criteria, with 480 patients used for statistical analyses\",\n  \"causal_question\": \"Does timely treatment intensification affect HbA1C control quality performance measures in adult patients with uncontrolled type 2 diabetes, compared to no treatment intensification, after adjusting for confounders?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Adult patients with uncontrolled type 2 diabetes",
+        "demographics": "adults, with some demographic information such as Hispanic vs White patients, and male vs female patients",
+        "setting": "a large, accountable care organization (ACO) in the United States"
+      },
+      "I": {
+        "variables": [
+          "timely treatment intensification"
+        ],
+        "description": "receiving treatment intensification during a 120-day window following an index HbA1c measurement"
+      },
+      "C": {
+        "description": "patients who did not receive timely treatment intensification",
+        "type": "no treatment intensification"
+      },
+      "O": {
+        "primary_outcome": "achieving HbA1C control quality performance measures (HbA1C levels <8.0%)",
+        "secondary_outcomes": [
+          "likelihood of receiving treatment intensification",
+          "odds of achieving superior control (HbA1c level <8.0%) after treatment intensification"
+        ],
+        "measurement": "HbA1C levels, odds ratios"
+      },
+      "Confounders": {
+        "variables": [
+          "index HbA1C level",
+          "patient body mass index",
+          "number of unique pre-index oral antidiabetes agents",
+          "patient race/ethnicity (Hispanic vs White)",
+          "patient sex",
+          "primary treating physician specialty (internist vs family medicine specialist)"
+        ],
+        "adjustment_method": "two-level hierarchical generalized linear models"
+      },
+      "study_design": "retrospective cohort study",
+      "sample_size": "547 patients met study selection criteria, with 480 patients used for statistical analyses",
+      "causal_question": "Does timely treatment intensification affect HbA1C control quality performance measures in adult patients with uncontrolled type 2 diabetes, compared to no treatment intensification, after adjusting for confounders?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "29894495",
+        "extracted": "2026-03-04T16:09:26.476875",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29894495-population",
+          "name": "Population (P)",
+          "description": "Adult patients with uncontrolled type 2 diabetes",
+          "demographics": "adults, with some demographic information such as Hispanic vs White patients, and male vs female patients",
+          "setting": "a large, accountable care organization (ACO) in the United States"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29894495-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "timely treatment intensification"
+            }
+          ],
+          "description": "receiving treatment intensification during a 120-day window following an index HbA1c measurement"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29894495-comparison",
+          "name": "Comparison (C)",
+          "description": "patients who did not receive timely treatment intensification",
+          "type": "no treatment intensification"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29894495-outcome",
+          "name": "Outcome (O)",
+          "description": "achieving HbA1C control quality performance measures (HbA1C levels <8.0%)",
+          "secondary_outcomes": [
+            "likelihood of receiving treatment intensification",
+            "odds of achieving superior control (HbA1c level <8.0%) after treatment intensification"
+          ],
+          "measurement": "HbA1C levels, odds ratios",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "29894495-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "index HbA1C level"
+            },
+            {
+              "description": "patient body mass index"
+            },
+            {
+              "description": "number of unique pre-index oral antidiabetes agents"
+            },
+            {
+              "description": "patient race/ethnicity (Hispanic vs White)"
+            },
+            {
+              "description": "patient sex"
+            },
+            {
+              "description": "primary treating physician specialty (internist vs family medicine specialist)"
+            }
+          ],
+          "description": "two-level hierarchical generalized linear models"
+        }
+      ],
+      "study_design": "retrospective cohort study",
+      "sample_size": "547 patients met study selection criteria, with 480 patients used for statistical analyses",
+      "causal_question": "Does timely treatment intensification affect HbA1C control quality performance measures in adult patients with uncontrolled type 2 diabetes, compared to no treatment intensification, after adjusting for confounders?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:09:26.476895"
+  },
+  "30618280": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"kidney stone formers undergoing ureteroscopy\",\n    \"demographics\": \"age, sex, race, BMI, ASA score\",\n    \"setting\": \"clinical setting, specifically urology department at Vanderbilt University Medical Center\"\n  },\n  \"I\": {\n    \"variables\": [\"preoperative opiate exposure\", \"number of prescriptions\", \"days prescribed\", \"unique providers\"],\n    \"description\": \"exposure to opiates before and after ureteroscopy\"\n  },\n  \"C\": {\n    \"description\": \"no opiate exposure or minimal opiate exposure\",\n    \"type\": \"unexposed or minimal exposure group\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"prolonged opiate use after ureteroscopy\",\n    \"secondary_outcomes\": [\"additional opiate prescriptions within 30 days\", \"persistent opiate use 60 days after ureteroscopy\"],\n    \"measurement\": \"prescription data from Tennessee Controlled Substance Monitoring Database\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"age\", \"BMI\", \"ASA score\", \"past stone surgery\", \"documented diagnosis of psychiatric disorder\"],\n    \"adjustment_method\": \"multivariable regression\"\n  },\n  \"study_design\": \"retrospective cohort study\",\n  \"sample_size\": \"208 patients\",\n  \"causal_question\": \"Does preoperative opiate exposure affect the risk of prolonged opiate use after ureteroscopy in kidney stone formers, compared to those with minimal or no opiate exposure, after adjusting for age, BMI, ASA score, and other confounders?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "kidney stone formers undergoing ureteroscopy",
+        "demographics": "age, sex, race, BMI, ASA score",
+        "setting": "clinical setting, specifically urology department at Vanderbilt University Medical Center"
+      },
+      "I": {
+        "variables": [
+          "preoperative opiate exposure",
+          "number of prescriptions",
+          "days prescribed",
+          "unique providers"
+        ],
+        "description": "exposure to opiates before and after ureteroscopy"
+      },
+      "C": {
+        "description": "no opiate exposure or minimal opiate exposure",
+        "type": "unexposed or minimal exposure group"
+      },
+      "O": {
+        "primary_outcome": "prolonged opiate use after ureteroscopy",
+        "secondary_outcomes": [
+          "additional opiate prescriptions within 30 days",
+          "persistent opiate use 60 days after ureteroscopy"
+        ],
+        "measurement": "prescription data from Tennessee Controlled Substance Monitoring Database"
+      },
+      "Confounders": {
+        "variables": [
+          "age",
+          "BMI",
+          "ASA score",
+          "past stone surgery",
+          "documented diagnosis of psychiatric disorder"
+        ],
+        "adjustment_method": "multivariable regression"
+      },
+      "study_design": "retrospective cohort study",
+      "sample_size": "208 patients",
+      "causal_question": "Does preoperative opiate exposure affect the risk of prolonged opiate use after ureteroscopy in kidney stone formers, compared to those with minimal or no opiate exposure, after adjusting for age, BMI, ASA score, and other confounders?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "30618280",
+        "extracted": "2026-03-04T16:09:48.928890",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "30618280-population",
+          "name": "Population (P)",
+          "description": "kidney stone formers undergoing ureteroscopy",
+          "demographics": "age, sex, race, BMI, ASA score",
+          "setting": "clinical setting, specifically urology department at Vanderbilt University Medical Center"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "30618280-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "preoperative opiate exposure"
+            },
+            {
+              "description": "number of prescriptions"
+            },
+            {
+              "description": "days prescribed"
+            },
+            {
+              "description": "unique providers"
+            }
+          ],
+          "description": "exposure to opiates before and after ureteroscopy"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "30618280-comparison",
+          "name": "Comparison (C)",
+          "description": "no opiate exposure or minimal opiate exposure",
+          "type": "unexposed or minimal exposure group"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "30618280-outcome",
+          "name": "Outcome (O)",
+          "description": "prolonged opiate use after ureteroscopy",
+          "secondary_outcomes": [
+            "additional opiate prescriptions within 30 days",
+            "persistent opiate use 60 days after ureteroscopy"
+          ],
+          "measurement": "prescription data from Tennessee Controlled Substance Monitoring Database",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "30618280-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "age"
+            },
+            {
+              "description": "BMI"
+            },
+            {
+              "description": "ASA score"
+            },
+            {
+              "description": "past stone surgery"
+            },
+            {
+              "description": "documented diagnosis of psychiatric disorder"
+            }
+          ],
+          "description": "multivariable regression"
+        }
+      ],
+      "study_design": "retrospective cohort study",
+      "sample_size": "208 patients",
+      "causal_question": "Does preoperative opiate exposure affect the risk of prolonged opiate use after ureteroscopy in kidney stone formers, compared to those with minimal or no opiate exposure, after adjusting for age, BMI, ASA score, and other confounders?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:09:48.928928"
+  },
+  "30853444": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Patients with positive serum syphilis serology undergoing evaluation of a diagnosis of neurosyphilis\",\n    \"demographics\": \"95.4% male, 74% HIV co-infected, age not specified\",\n    \"setting\": \"Quaternary centre, outpatient or inpatient setting\"\n  },\n  \"I\": {\n    \"variables\": [\"CSF analysis\"],\n    \"description\": \"Cerebrospinal fluid analysis for diagnosis of neurosyphilis\"\n  },\n  \"C\": {\n    \"description\": \"No CSF analysis or alternative diagnostic approaches\",\n    \"type\": \"No treatment or alternative treatment strategies\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"Concordance between CSF analysis and subsequent antibiotic strategy\",\n    \"secondary_outcomes\": [\"Proportion of patients treated with neurosyphilis antibiotics\", \"Proportion of patients with CSF findings suggestive of neurosyphilis\"],\n    \"measurement\": \"Review of hospital electronic medical records and pathology database\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"HIV co-infection\", \"Symptomatic status\", \"Clinical presentation\"],\n    \"adjustment_method\": \"Not explicitly stated, but likely through review of electronic medical records\"\n  },\n  \"study_design\": \"Retrospective cohort study\",\n  \"sample_size\": \"131 patients\",\n  \"causal_question\": \"Does CSF analysis affect the subsequent antibiotic strategy in patients with positive serum syphilis serology undergoing evaluation of a diagnosis of neurosyphilis, compared to no CSF analysis or alternative diagnostic approaches?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Patients with positive serum syphilis serology undergoing evaluation of a diagnosis of neurosyphilis",
+        "demographics": "95.4% male, 74% HIV co-infected, age not specified",
+        "setting": "Quaternary centre, outpatient or inpatient setting"
+      },
+      "I": {
+        "variables": [
+          "CSF analysis"
+        ],
+        "description": "Cerebrospinal fluid analysis for diagnosis of neurosyphilis"
+      },
+      "C": {
+        "description": "No CSF analysis or alternative diagnostic approaches",
+        "type": "No treatment or alternative treatment strategies"
+      },
+      "O": {
+        "primary_outcome": "Concordance between CSF analysis and subsequent antibiotic strategy",
+        "secondary_outcomes": [
+          "Proportion of patients treated with neurosyphilis antibiotics",
+          "Proportion of patients with CSF findings suggestive of neurosyphilis"
+        ],
+        "measurement": "Review of hospital electronic medical records and pathology database"
+      },
+      "Confounders": {
+        "variables": [
+          "HIV co-infection",
+          "Symptomatic status",
+          "Clinical presentation"
+        ],
+        "adjustment_method": "Not explicitly stated, but likely through review of electronic medical records"
+      },
+      "study_design": "Retrospective cohort study",
+      "sample_size": "131 patients",
+      "causal_question": "Does CSF analysis affect the subsequent antibiotic strategy in patients with positive serum syphilis serology undergoing evaluation of a diagnosis of neurosyphilis, compared to no CSF analysis or alternative diagnostic approaches?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "30853444",
+        "extracted": "2026-03-04T16:10:11.956808",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "30853444-population",
+          "name": "Population (P)",
+          "description": "Patients with positive serum syphilis serology undergoing evaluation of a diagnosis of neurosyphilis",
+          "demographics": "95.4% male, 74% HIV co-infected, age not specified",
+          "setting": "Quaternary centre, outpatient or inpatient setting"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "30853444-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "CSF analysis"
+            }
+          ],
+          "description": "Cerebrospinal fluid analysis for diagnosis of neurosyphilis"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "30853444-comparison",
+          "name": "Comparison (C)",
+          "description": "No CSF analysis or alternative diagnostic approaches",
+          "type": "No treatment or alternative treatment strategies"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "30853444-outcome",
+          "name": "Outcome (O)",
+          "description": "Concordance between CSF analysis and subsequent antibiotic strategy",
+          "secondary_outcomes": [
+            "Proportion of patients treated with neurosyphilis antibiotics",
+            "Proportion of patients with CSF findings suggestive of neurosyphilis"
+          ],
+          "measurement": "Review of hospital electronic medical records and pathology database",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "30853444-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "HIV co-infection"
+            },
+            {
+              "description": "Symptomatic status"
+            },
+            {
+              "description": "Clinical presentation"
+            }
+          ],
+          "description": "Not explicitly stated, but likely through review of electronic medical records"
+        }
+      ],
+      "study_design": "Retrospective cohort study",
+      "sample_size": "131 patients",
+      "causal_question": "Does CSF analysis affect the subsequent antibiotic strategy in patients with positive serum syphilis serology undergoing evaluation of a diagnosis of neurosyphilis, compared to no CSF analysis or alternative diagnostic approaches?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:10:11.956826"
+  },
+  "31405419": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Patients with parastomal hernias (PHs) who underwent PH repair (PHR) at a single institution\",\n    \"demographics\": \"age, American Society of Anesthesiologists Class III, diabetes, cancer, obesity\",\n    \"setting\": \"single institution, clinical setting\"\n  },\n  \"I\": {\n    \"variables\": [\"PHR using different operative techniques\"],\n    \"description\": \"PHR using different operative techniques, including open and laparoscopic hernia repair\"\n  },\n  \"C\": {\n    \"description\": \"Comparison between SmallPH (EHS types I and II) and LargePH (EHS types III and IV) groups\",\n    \"type\": \"comparator group within the same study population\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"hernia recurrence\",\n    \"secondary_outcomes\": [\"postoperative complications, 30-day readmission, superficial SSI, deep SSI, nonwound complications\"],\n    \"measurement\": \"electronic medical records review, clinical outcomes assessment\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"age\", \"American Society of Anesthesiologists Class III\", \"diabetes\", \"cancer\", \"obesity\"],\n    \"adjustment_method\": \"not explicitly stated, but comparisons between groups were made using chi-squared, Fisher\u2019s exact, or Mann-Whitney U test\"\n  },\n  \"study_design\": \"retrospective cohort study\",\n  \"sample_size\": \"62 patients\",\n  \"causal_question\": \"Does PHR outcome differ between patients with SmallPH (EHS types I and II) and LargePH (EHS types III and IV) after adjusting for confounders?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Patients with parastomal hernias (PHs) who underwent PH repair (PHR) at a single institution",
+        "demographics": "age, American Society of Anesthesiologists Class III, diabetes, cancer, obesity",
+        "setting": "single institution, clinical setting"
+      },
+      "I": {
+        "variables": [
+          "PHR using different operative techniques"
+        ],
+        "description": "PHR using different operative techniques, including open and laparoscopic hernia repair"
+      },
+      "C": {
+        "description": "Comparison between SmallPH (EHS types I and II) and LargePH (EHS types III and IV) groups",
+        "type": "comparator group within the same study population"
+      },
+      "O": {
+        "primary_outcome": "hernia recurrence",
+        "secondary_outcomes": [
+          "postoperative complications, 30-day readmission, superficial SSI, deep SSI, nonwound complications"
+        ],
+        "measurement": "electronic medical records review, clinical outcomes assessment"
+      },
+      "Confounders": {
+        "variables": [
+          "age",
+          "American Society of Anesthesiologists Class III",
+          "diabetes",
+          "cancer",
+          "obesity"
+        ],
+        "adjustment_method": "not explicitly stated, but comparisons between groups were made using chi-squared, Fisher\u2019s exact, or Mann-Whitney U test"
+      },
+      "study_design": "retrospective cohort study",
+      "sample_size": "62 patients",
+      "causal_question": "Does PHR outcome differ between patients with SmallPH (EHS types I and II) and LargePH (EHS types III and IV) after adjusting for confounders?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "31405419",
+        "extracted": "2026-03-04T16:10:33.742041",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "31405419-population",
+          "name": "Population (P)",
+          "description": "Patients with parastomal hernias (PHs) who underwent PH repair (PHR) at a single institution",
+          "demographics": "age, American Society of Anesthesiologists Class III, diabetes, cancer, obesity",
+          "setting": "single institution, clinical setting"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "31405419-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "PHR using different operative techniques"
+            }
+          ],
+          "description": "PHR using different operative techniques, including open and laparoscopic hernia repair"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "31405419-comparison",
+          "name": "Comparison (C)",
+          "description": "Comparison between SmallPH (EHS types I and II) and LargePH (EHS types III and IV) groups",
+          "type": "comparator group within the same study population"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "31405419-outcome",
+          "name": "Outcome (O)",
+          "description": "hernia recurrence",
+          "secondary_outcomes": [
+            "postoperative complications, 30-day readmission, superficial SSI, deep SSI, nonwound complications"
+          ],
+          "measurement": "electronic medical records review, clinical outcomes assessment",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "31405419-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "age"
+            },
+            {
+              "description": "American Society of Anesthesiologists Class III"
+            },
+            {
+              "description": "diabetes"
+            },
+            {
+              "description": "cancer"
+            },
+            {
+              "description": "obesity"
+            }
+          ],
+          "description": "not explicitly stated, but comparisons between groups were made using chi-squared, Fisher\u2019s exact, or Mann-Whitney U test"
+        }
+      ],
+      "study_design": "retrospective cohort study",
+      "sample_size": "62 patients",
+      "causal_question": "Does PHR outcome differ between patients with SmallPH (EHS types I and II) and LargePH (EHS types III and IV) after adjusting for confounders?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:10:33.742065"
+  },
+  "31537841": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"population-based cohort in Catalonia, Spain\",\n    \"demographics\": \"not specified\",\n    \"setting\": \"primary care, Catalonia, Spain\"\n  },\n  \"I\": {\n    \"variables\": [\"statin use\"],\n    \"description\": \"exposure to statins, including type, cumulative duration, and mean daily defined dose\"\n  },\n  \"C\": {\n    \"description\": \"unexposed group\",\n    \"type\": \"no statin use\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"risk of colorectal cancer (CRC)\",\n    \"secondary_outcomes\": [\"risk of rectal cancer\"],\n    \"measurement\": \"incident diagnosis of CRC\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"not explicitly stated, but potentially includes demographic and clinical factors\"],\n    \"adjustment_method\": \"frequency matching\"\n  },\n  \"study_design\": \"case-control study\",\n  \"sample_size\": \"25,811 cases and 129,117 controls\",\n  \"causal_question\": \"Does statin use affect the risk of colorectal cancer in the population of Catalonia, compared to no statin use, after adjusting for potential confounders?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "population-based cohort in Catalonia, Spain",
+        "demographics": "not specified",
+        "setting": "primary care, Catalonia, Spain"
+      },
+      "I": {
+        "variables": [
+          "statin use"
+        ],
+        "description": "exposure to statins, including type, cumulative duration, and mean daily defined dose"
+      },
+      "C": {
+        "description": "unexposed group",
+        "type": "no statin use"
+      },
+      "O": {
+        "primary_outcome": "risk of colorectal cancer (CRC)",
+        "secondary_outcomes": [
+          "risk of rectal cancer"
+        ],
+        "measurement": "incident diagnosis of CRC"
+      },
+      "Confounders": {
+        "variables": [
+          "not explicitly stated, but potentially includes demographic and clinical factors"
+        ],
+        "adjustment_method": "frequency matching"
+      },
+      "study_design": "case-control study",
+      "sample_size": "25,811 cases and 129,117 controls",
+      "causal_question": "Does statin use affect the risk of colorectal cancer in the population of Catalonia, compared to no statin use, after adjusting for potential confounders?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "31537841",
+        "extracted": "2026-03-04T16:10:55.855199",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "31537841-population",
+          "name": "Population (P)",
+          "description": "population-based cohort in Catalonia, Spain",
+          "demographics": "not specified",
+          "setting": "primary care, Catalonia, Spain"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "31537841-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "statin use"
+            }
+          ],
+          "description": "exposure to statins, including type, cumulative duration, and mean daily defined dose"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "31537841-comparison",
+          "name": "Comparison (C)",
+          "description": "unexposed group",
+          "type": "no statin use"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "31537841-outcome",
+          "name": "Outcome (O)",
+          "description": "risk of colorectal cancer (CRC)",
+          "secondary_outcomes": [
+            "risk of rectal cancer"
+          ],
+          "measurement": "incident diagnosis of CRC",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "31537841-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "not explicitly stated, but potentially includes demographic and clinical factors"
+            }
+          ],
+          "description": "frequency matching"
+        }
+      ],
+      "study_design": "case-control study",
+      "sample_size": "25,811 cases and 129,117 controls",
+      "causal_question": "Does statin use affect the risk of colorectal cancer in the population of Catalonia, compared to no statin use, after adjusting for potential confounders?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:10:55.855214"
+  },
+  "32069337": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Consecutive patients with chronic liver disease (CLD) or cirrhosis\",\n    \"demographics\": \"median age 53 years\",\n    \"setting\": \"outpatient hepatology clinic in Ontario, Canada\"\n  },\n  \"I\": {\n    \"variables\": [\"hierarchical algorithm incorporating laboratory and administrative codes\"],\n    \"description\": \"use of a hierarchical algorithm to define etiology of CLD and cirrhosis\"\n  },\n  \"C\": {\n    \"description\": \"gold standard liver disease etiology determined by an attending hepatologist\",\n    \"type\": \"clinical diagnosis\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"diagnostic accuracy of the hierarchical algorithm\",\n    \"secondary_outcomes\": [\"sensitivity\", \"specificity\", \"positive predictive value (PPV)\", \"negative predictive value (NPV)\"],\n    \"measurement\": \"calculating sensitivity, specificity, PPV, NPV, and kappa\u2019s agreement\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"age\", \"sex\", \"cirrhosis status\"],\n    \"adjustment_method\": \"not explicitly stated\"\n  },\n  \"study_design\": \"validation study\",\n  \"sample_size\": \"442 individuals\",\n  \"causal_question\": \"Does the hierarchical algorithm accurately define the etiology of chronic liver disease and cirrhosis in patients attending an outpatient hepatology clinic, compared to the gold standard clinical diagnosis?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Consecutive patients with chronic liver disease (CLD) or cirrhosis",
+        "demographics": "median age 53 years",
+        "setting": "outpatient hepatology clinic in Ontario, Canada"
+      },
+      "I": {
+        "variables": [
+          "hierarchical algorithm incorporating laboratory and administrative codes"
+        ],
+        "description": "use of a hierarchical algorithm to define etiology of CLD and cirrhosis"
+      },
+      "C": {
+        "description": "gold standard liver disease etiology determined by an attending hepatologist",
+        "type": "clinical diagnosis"
+      },
+      "O": {
+        "primary_outcome": "diagnostic accuracy of the hierarchical algorithm",
+        "secondary_outcomes": [
+          "sensitivity",
+          "specificity",
+          "positive predictive value (PPV)",
+          "negative predictive value (NPV)"
+        ],
+        "measurement": "calculating sensitivity, specificity, PPV, NPV, and kappa\u2019s agreement"
+      },
+      "Confounders": {
+        "variables": [
+          "age",
+          "sex",
+          "cirrhosis status"
+        ],
+        "adjustment_method": "not explicitly stated"
+      },
+      "study_design": "validation study",
+      "sample_size": "442 individuals",
+      "causal_question": "Does the hierarchical algorithm accurately define the etiology of chronic liver disease and cirrhosis in patients attending an outpatient hepatology clinic, compared to the gold standard clinical diagnosis?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "32069337",
+        "extracted": "2026-03-04T16:11:16.625840",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32069337-population",
+          "name": "Population (P)",
+          "description": "Consecutive patients with chronic liver disease (CLD) or cirrhosis",
+          "demographics": "median age 53 years",
+          "setting": "outpatient hepatology clinic in Ontario, Canada"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32069337-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "hierarchical algorithm incorporating laboratory and administrative codes"
+            }
+          ],
+          "description": "use of a hierarchical algorithm to define etiology of CLD and cirrhosis"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32069337-comparison",
+          "name": "Comparison (C)",
+          "description": "gold standard liver disease etiology determined by an attending hepatologist",
+          "type": "clinical diagnosis"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32069337-outcome",
+          "name": "Outcome (O)",
+          "description": "diagnostic accuracy of the hierarchical algorithm",
+          "secondary_outcomes": [
+            "sensitivity",
+            "specificity",
+            "positive predictive value (PPV)",
+            "negative predictive value (NPV)"
+          ],
+          "measurement": "calculating sensitivity, specificity, PPV, NPV, and kappa\u2019s agreement",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32069337-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "age"
+            },
+            {
+              "description": "sex"
+            },
+            {
+              "description": "cirrhosis status"
+            }
+          ],
+          "description": "not explicitly stated"
+        }
+      ],
+      "study_design": "validation study",
+      "sample_size": "442 individuals",
+      "causal_question": "Does the hierarchical algorithm accurately define the etiology of chronic liver disease and cirrhosis in patients attending an outpatient hepatology clinic, compared to the gold standard clinical diagnosis?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:11:16.625872"
+  },
+  "32591734": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Patients with diabetic macular oedema (DMO) treated with anti-VEGF therapy\",\n    \"demographics\": \"adults, 1964 patients, male and female, no specific age range mentioned\",\n    \"setting\": \"tertiary referral centre, Moorfields Eye Hospital NHS Foundation Trust, London, UK\"\n  },\n  \"I\": {\n    \"variables\": [\"intravitreal anti-vascular endothelial growth factor (VEGF) injections\"],\n    \"description\": \"anti-VEGF therapy for DMO\"\n  },\n  \"C\": {\n    \"description\": \"no explicit comparison group, but implicitly comparing treated eyes to their own baseline or natural history\",\n    \"type\": \"no treatment or natural history\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"visual acuity (VA) outcomes, specifically reaching a favourable visual outcome of more than 70 Early Treatment Diabetic Retinopathy Study letters\",\n    \"secondary_outcomes\": [\"time to reach 70 letters\", \"time to fall below 70 letters after reaching it\", \"VA loss \u226515\"],\n    \"measurement\": \"Early Treatment Diabetic Retinopathy Study (ETDRS) letters\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"injection number\", \"male gender\", \"baseline VA\"],\n    \"adjustment_method\": \"Cox proportional-hazards modelling\"\n  },\n  \"study_design\": \"retrospective cohort study\",\n  \"sample_size\": \"2614 eyes of 1964 patients\",\n  \"causal_question\": \"Does anti-VEGF therapy affect visual acuity outcomes in patients with diabetic macular oedema, compared to their own baseline or natural history, after adjusting for injection number, male gender, and baseline VA?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Patients with diabetic macular oedema (DMO) treated with anti-VEGF therapy",
+        "demographics": "adults, 1964 patients, male and female, no specific age range mentioned",
+        "setting": "tertiary referral centre, Moorfields Eye Hospital NHS Foundation Trust, London, UK"
+      },
+      "I": {
+        "variables": [
+          "intravitreal anti-vascular endothelial growth factor (VEGF) injections"
+        ],
+        "description": "anti-VEGF therapy for DMO"
+      },
+      "C": {
+        "description": "no explicit comparison group, but implicitly comparing treated eyes to their own baseline or natural history",
+        "type": "no treatment or natural history"
+      },
+      "O": {
+        "primary_outcome": "visual acuity (VA) outcomes, specifically reaching a favourable visual outcome of more than 70 Early Treatment Diabetic Retinopathy Study letters",
+        "secondary_outcomes": [
+          "time to reach 70 letters",
+          "time to fall below 70 letters after reaching it",
+          "VA loss \u226515"
+        ],
+        "measurement": "Early Treatment Diabetic Retinopathy Study (ETDRS) letters"
+      },
+      "Confounders": {
+        "variables": [
+          "injection number",
+          "male gender",
+          "baseline VA"
+        ],
+        "adjustment_method": "Cox proportional-hazards modelling"
+      },
+      "study_design": "retrospective cohort study",
+      "sample_size": "2614 eyes of 1964 patients",
+      "causal_question": "Does anti-VEGF therapy affect visual acuity outcomes in patients with diabetic macular oedema, compared to their own baseline or natural history, after adjusting for injection number, male gender, and baseline VA?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "32591734",
+        "extracted": "2026-03-04T16:11:42.212307",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32591734-population",
+          "name": "Population (P)",
+          "description": "Patients with diabetic macular oedema (DMO) treated with anti-VEGF therapy",
+          "demographics": "adults, 1964 patients, male and female, no specific age range mentioned",
+          "setting": "tertiary referral centre, Moorfields Eye Hospital NHS Foundation Trust, London, UK"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32591734-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "intravitreal anti-vascular endothelial growth factor (VEGF) injections"
+            }
+          ],
+          "description": "anti-VEGF therapy for DMO"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32591734-comparison",
+          "name": "Comparison (C)",
+          "description": "no explicit comparison group, but implicitly comparing treated eyes to their own baseline or natural history",
+          "type": "no treatment or natural history"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32591734-outcome",
+          "name": "Outcome (O)",
+          "description": "visual acuity (VA) outcomes, specifically reaching a favourable visual outcome of more than 70 Early Treatment Diabetic Retinopathy Study letters",
+          "secondary_outcomes": [
+            "time to reach 70 letters",
+            "time to fall below 70 letters after reaching it",
+            "VA loss \u226515"
+          ],
+          "measurement": "Early Treatment Diabetic Retinopathy Study (ETDRS) letters",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32591734-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "injection number"
+            },
+            {
+              "description": "male gender"
+            },
+            {
+              "description": "baseline VA"
+            }
+          ],
+          "description": "Cox proportional-hazards modelling"
+        }
+      ],
+      "study_design": "retrospective cohort study",
+      "sample_size": "2614 eyes of 1964 patients",
+      "causal_question": "Does anti-VEGF therapy affect visual acuity outcomes in patients with diabetic macular oedema, compared to their own baseline or natural history, after adjusting for injection number, male gender, and baseline VA?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:11:42.212325"
+  },
+  "32688083": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Eyes that underwent incisional glaucoma surgery\",\n    \"demographics\": \"Not specified\",\n    \"setting\": \"Single, tertiary referral center (Oregon Health & Science University)\"\n  },\n  \"I\": {\n    \"variables\": [\"Trabeculectomy\", \"Tube-shunt implantation\"],\n    \"description\": \"Incisional glaucoma surgery types\"\n  },\n  \"C\": {\n    \"description\": \"Comparison between trabeculectomy and tube-shunt implantation\",\n    \"type\": \"Active comparator\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"Cumulative risk of filtering-associated endophthalmitis\",\n    \"secondary_outcomes\": [\"Visual acuity improvement\", \"Globe salvage\"],\n    \"measurement\": \"Kaplan-Meier analysis, log-rank test\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"Not explicitly stated, but may include factors such as age, sex, and previous ocular surgery\"],\n    \"adjustment_method\": \"Not specified\"\n  },\n  \"study_design\": \"Retrospective database study with selective chart review\",\n  \"sample_size\": \"1582 eyes\",\n  \"causal_question\": \"Does the type of incisional glaucoma surgery (trabeculectomy or tube-shunt implantation) affect the risk of filtering-associated endophthalmitis in eyes that underwent surgery, compared to each other?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Eyes that underwent incisional glaucoma surgery",
+        "demographics": "Not specified",
+        "setting": "Single, tertiary referral center (Oregon Health & Science University)"
+      },
+      "I": {
+        "variables": [
+          "Trabeculectomy",
+          "Tube-shunt implantation"
+        ],
+        "description": "Incisional glaucoma surgery types"
+      },
+      "C": {
+        "description": "Comparison between trabeculectomy and tube-shunt implantation",
+        "type": "Active comparator"
+      },
+      "O": {
+        "primary_outcome": "Cumulative risk of filtering-associated endophthalmitis",
+        "secondary_outcomes": [
+          "Visual acuity improvement",
+          "Globe salvage"
+        ],
+        "measurement": "Kaplan-Meier analysis, log-rank test"
+      },
+      "Confounders": {
+        "variables": [
+          "Not explicitly stated, but may include factors such as age, sex, and previous ocular surgery"
+        ],
+        "adjustment_method": "Not specified"
+      },
+      "study_design": "Retrospective database study with selective chart review",
+      "sample_size": "1582 eyes",
+      "causal_question": "Does the type of incisional glaucoma surgery (trabeculectomy or tube-shunt implantation) affect the risk of filtering-associated endophthalmitis in eyes that underwent surgery, compared to each other?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "32688083",
+        "extracted": "2026-03-04T16:12:02.616976",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32688083-population",
+          "name": "Population (P)",
+          "description": "Eyes that underwent incisional glaucoma surgery",
+          "demographics": "Not specified",
+          "setting": "Single, tertiary referral center (Oregon Health & Science University)"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32688083-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "Trabeculectomy"
+            },
+            {
+              "description": "Tube-shunt implantation"
+            }
+          ],
+          "description": "Incisional glaucoma surgery types"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32688083-comparison",
+          "name": "Comparison (C)",
+          "description": "Comparison between trabeculectomy and tube-shunt implantation",
+          "type": "Active comparator"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32688083-outcome",
+          "name": "Outcome (O)",
+          "description": "Cumulative risk of filtering-associated endophthalmitis",
+          "secondary_outcomes": [
+            "Visual acuity improvement",
+            "Globe salvage"
+          ],
+          "measurement": "Kaplan-Meier analysis, log-rank test",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32688083-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "Not explicitly stated, but may include factors such as age, sex, and previous ocular surgery"
+            }
+          ],
+          "description": "Not specified"
+        }
+      ],
+      "study_design": "Retrospective database study with selective chart review",
+      "sample_size": "1582 eyes",
+      "causal_question": "Does the type of incisional glaucoma surgery (trabeculectomy or tube-shunt implantation) affect the risk of filtering-associated endophthalmitis in eyes that underwent surgery, compared to each other?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:12:02.617005"
+  },
+  "32833926": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Patients undergoing below-the-knee amputation (BKA) due to various indications\",\n    \"demographics\": \"age, sex (not explicitly reported but mentioned as a controlled variable), and other characteristics such as diabetes status and hemoglobin A1c level\",\n    \"setting\": \"A Level 1 trauma center\"\n  },\n  \"I\": {\n    \"variables\": [\"BKA surgery\"],\n    \"description\": \"Below-the-knee amputation surgery\"\n  },\n  \"C\": {\n    \"description\": \"No explicit comparison group, as this is an observational study focusing on outcomes after BKA\",\n    \"type\": \"None (observational study)\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"Survivorship free from unplanned reoperation within 1 year of BKA index surgery\",\n    \"secondary_outcomes\": [\"Patient characteristics associated with reoperation within 1 year of BKA\"],\n    \"measurement\": \"Kaplan-Meier estimation and multivariate logistic regression analyses\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"age\", \"gender\", \"platelet count\", \"albumin\", \"reason for undergoing amputation\"],\n    \"adjustment_method\": \"Multivariate logistic regression analyses\"\n  },\n  \"study_design\": \"Retrospective cohort study\",\n  \"sample_size\": \"138 patients\",\n  \"causal_question\": \"Does having a hemoglobin A1c level greater than 8.1% affect the odds of unplanned reoperation within 1 year after below-the-knee amputation in patients undergoing BKA, compared to those with an A1c level of 8.1% or less, after adjusting for potential confounders?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Patients undergoing below-the-knee amputation (BKA) due to various indications",
+        "demographics": "age, sex (not explicitly reported but mentioned as a controlled variable), and other characteristics such as diabetes status and hemoglobin A1c level",
+        "setting": "A Level 1 trauma center"
+      },
+      "I": {
+        "variables": [
+          "BKA surgery"
+        ],
+        "description": "Below-the-knee amputation surgery"
+      },
+      "C": {
+        "description": "No explicit comparison group, as this is an observational study focusing on outcomes after BKA",
+        "type": "None (observational study)"
+      },
+      "O": {
+        "primary_outcome": "Survivorship free from unplanned reoperation within 1 year of BKA index surgery",
+        "secondary_outcomes": [
+          "Patient characteristics associated with reoperation within 1 year of BKA"
+        ],
+        "measurement": "Kaplan-Meier estimation and multivariate logistic regression analyses"
+      },
+      "Confounders": {
+        "variables": [
+          "age",
+          "gender",
+          "platelet count",
+          "albumin",
+          "reason for undergoing amputation"
+        ],
+        "adjustment_method": "Multivariate logistic regression analyses"
+      },
+      "study_design": "Retrospective cohort study",
+      "sample_size": "138 patients",
+      "causal_question": "Does having a hemoglobin A1c level greater than 8.1% affect the odds of unplanned reoperation within 1 year after below-the-knee amputation in patients undergoing BKA, compared to those with an A1c level of 8.1% or less, after adjusting for potential confounders?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "32833926",
+        "extracted": "2026-03-04T16:12:25.506971",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32833926-population",
+          "name": "Population (P)",
+          "description": "Patients undergoing below-the-knee amputation (BKA) due to various indications",
+          "demographics": "age, sex (not explicitly reported but mentioned as a controlled variable), and other characteristics such as diabetes status and hemoglobin A1c level",
+          "setting": "A Level 1 trauma center"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32833926-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "BKA surgery"
+            }
+          ],
+          "description": "Below-the-knee amputation surgery"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32833926-comparison",
+          "name": "Comparison (C)",
+          "description": "No explicit comparison group, as this is an observational study focusing on outcomes after BKA",
+          "type": "None (observational study)"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32833926-outcome",
+          "name": "Outcome (O)",
+          "description": "Survivorship free from unplanned reoperation within 1 year of BKA index surgery",
+          "secondary_outcomes": [
+            "Patient characteristics associated with reoperation within 1 year of BKA"
+          ],
+          "measurement": "Kaplan-Meier estimation and multivariate logistic regression analyses",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32833926-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "age"
+            },
+            {
+              "description": "gender"
+            },
+            {
+              "description": "platelet count"
+            },
+            {
+              "description": "albumin"
+            },
+            {
+              "description": "reason for undergoing amputation"
+            }
+          ],
+          "description": "Multivariate logistic regression analyses"
+        }
+      ],
+      "study_design": "Retrospective cohort study",
+      "sample_size": "138 patients",
+      "causal_question": "Does having a hemoglobin A1c level greater than 8.1% affect the odds of unplanned reoperation within 1 year after below-the-knee amputation in patients undergoing BKA, compared to those with an A1c level of 8.1% or less, after adjusting for potential confounders?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:12:25.506982"
+  },
+  "32925614": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Women with low-risk pregnancies giving birth in hospitals\",\n    \"demographics\": \"Full-term, uncomplicated pregnancies\",\n    \"setting\": \"Hospital-based deliveries in two health systems (eight hospitals) in the United States\"\n  },\n  \"I\": {\n    \"variables\": [\"Water immersion during labor\"],\n    \"description\": \"Water immersion during the first or second stage of labor\"\n  },\n  \"C\": {\n    \"description\": \"Women who met clinical eligibility criteria for waterbirth but did not experience water immersion during labor\",\n    \"type\": \"Matched control group without water immersion\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"Neonatal intensive care unit (NICU) or special care nursery admission\",\n    \"secondary_outcomes\": [\"Adverse neonatal diagnoses\", \"Maternal infections\", \"Perineal lacerations\"],\n    \"measurement\": \"Electronic health record data and propensity score matching\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"Clinical eligibility criteria for waterbirth\"],\n    \"adjustment_method\": \"Propensity score matching\"\n  },\n  \"study_design\": \"Retrospective cohort study\",\n  \"sample_size\": \"583 women with water immersion and a matched control group\",\n  \"causal_question\": \"Does water immersion during labor affect neonatal intensive care unit or special care nursery admission and other outcomes in women with low-risk pregnancies, compared to a matched control group without water immersion?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Women with low-risk pregnancies giving birth in hospitals",
+        "demographics": "Full-term, uncomplicated pregnancies",
+        "setting": "Hospital-based deliveries in two health systems (eight hospitals) in the United States"
+      },
+      "I": {
+        "variables": [
+          "Water immersion during labor"
+        ],
+        "description": "Water immersion during the first or second stage of labor"
+      },
+      "C": {
+        "description": "Women who met clinical eligibility criteria for waterbirth but did not experience water immersion during labor",
+        "type": "Matched control group without water immersion"
+      },
+      "O": {
+        "primary_outcome": "Neonatal intensive care unit (NICU) or special care nursery admission",
+        "secondary_outcomes": [
+          "Adverse neonatal diagnoses",
+          "Maternal infections",
+          "Perineal lacerations"
+        ],
+        "measurement": "Electronic health record data and propensity score matching"
+      },
+      "Confounders": {
+        "variables": [
+          "Clinical eligibility criteria for waterbirth"
+        ],
+        "adjustment_method": "Propensity score matching"
+      },
+      "study_design": "Retrospective cohort study",
+      "sample_size": "583 women with water immersion and a matched control group",
+      "causal_question": "Does water immersion during labor affect neonatal intensive care unit or special care nursery admission and other outcomes in women with low-risk pregnancies, compared to a matched control group without water immersion?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "32925614",
+        "extracted": "2026-03-04T16:12:53.233805",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32925614-population",
+          "name": "Population (P)",
+          "description": "Women with low-risk pregnancies giving birth in hospitals",
+          "demographics": "Full-term, uncomplicated pregnancies",
+          "setting": "Hospital-based deliveries in two health systems (eight hospitals) in the United States"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32925614-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "Water immersion during labor"
+            }
+          ],
+          "description": "Water immersion during the first or second stage of labor"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32925614-comparison",
+          "name": "Comparison (C)",
+          "description": "Women who met clinical eligibility criteria for waterbirth but did not experience water immersion during labor",
+          "type": "Matched control group without water immersion"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32925614-outcome",
+          "name": "Outcome (O)",
+          "description": "Neonatal intensive care unit (NICU) or special care nursery admission",
+          "secondary_outcomes": [
+            "Adverse neonatal diagnoses",
+            "Maternal infections",
+            "Perineal lacerations"
+          ],
+          "measurement": "Electronic health record data and propensity score matching",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32925614-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "Clinical eligibility criteria for waterbirth"
+            }
+          ],
+          "description": "Propensity score matching"
+        }
+      ],
+      "study_design": "Retrospective cohort study",
+      "sample_size": "583 women with water immersion and a matched control group",
+      "causal_question": "Does water immersion during labor affect neonatal intensive care unit or special care nursery admission and other outcomes in women with low-risk pregnancies, compared to a matched control group without water immersion?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:12:53.233830"
+  },
+  "32964371": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Patients undergoing head and neck oncologic surgery\",\n    \"demographics\": \"age, race/ethnicity\",\n    \"setting\": \"The University of Texas MD Anderson Cancer Center\"\n  },\n  \"I\": {\n    \"variables\": [\"Enhanced Recovery After Surgery (ERAS) pathway\"],\n    \"description\": \"Implementation of an ERAS pathway for head and neck oncologic surgery\"\n  },\n  \"C\": {\n    \"description\": \"Control group without ERAS pathway\",\n    \"type\": \"no treatment/unexposed\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"Perioperative outcomes (e.g., hospital length of stay, complication rates)\",\n    \"secondary_outcomes\": [\"pain scores\", \"opioid usage\", \"risk factors for high opioid usage\"],\n    \"measurement\": \"NSQIP database and electronic medical record system\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"preoperative opioid usage\", \"age\", \"race\", \"patient-controlled analgesia use\", \"ICU admission\"],\n    \"adjustment_method\": \"multivariate analysis\"\n  },\n  \"study_design\": \"retrospective case-matched analysis\",\n  \"sample_size\": \"400 patients (200 in ERAS group and 200 in control group)\",\n  \"causal_question\": \"Does the implementation of an ERAS pathway affect perioperative outcomes in patients undergoing head and neck oncologic surgery, compared to those without an ERAS pathway, after adjusting for confounders?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Patients undergoing head and neck oncologic surgery",
+        "demographics": "age, race/ethnicity",
+        "setting": "The University of Texas MD Anderson Cancer Center"
+      },
+      "I": {
+        "variables": [
+          "Enhanced Recovery After Surgery (ERAS) pathway"
+        ],
+        "description": "Implementation of an ERAS pathway for head and neck oncologic surgery"
+      },
+      "C": {
+        "description": "Control group without ERAS pathway",
+        "type": "no treatment/unexposed"
+      },
+      "O": {
+        "primary_outcome": "Perioperative outcomes (e.g., hospital length of stay, complication rates)",
+        "secondary_outcomes": [
+          "pain scores",
+          "opioid usage",
+          "risk factors for high opioid usage"
+        ],
+        "measurement": "NSQIP database and electronic medical record system"
+      },
+      "Confounders": {
+        "variables": [
+          "preoperative opioid usage",
+          "age",
+          "race",
+          "patient-controlled analgesia use",
+          "ICU admission"
+        ],
+        "adjustment_method": "multivariate analysis"
+      },
+      "study_design": "retrospective case-matched analysis",
+      "sample_size": "400 patients (200 in ERAS group and 200 in control group)",
+      "causal_question": "Does the implementation of an ERAS pathway affect perioperative outcomes in patients undergoing head and neck oncologic surgery, compared to those without an ERAS pathway, after adjusting for confounders?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "32964371",
+        "extracted": "2026-03-04T16:13:15.336228",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32964371-population",
+          "name": "Population (P)",
+          "description": "Patients undergoing head and neck oncologic surgery",
+          "demographics": "age, race/ethnicity",
+          "setting": "The University of Texas MD Anderson Cancer Center"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32964371-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "Enhanced Recovery After Surgery (ERAS) pathway"
+            }
+          ],
+          "description": "Implementation of an ERAS pathway for head and neck oncologic surgery"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32964371-comparison",
+          "name": "Comparison (C)",
+          "description": "Control group without ERAS pathway",
+          "type": "no treatment/unexposed"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32964371-outcome",
+          "name": "Outcome (O)",
+          "description": "Perioperative outcomes (e.g., hospital length of stay, complication rates)",
+          "secondary_outcomes": [
+            "pain scores",
+            "opioid usage",
+            "risk factors for high opioid usage"
+          ],
+          "measurement": "NSQIP database and electronic medical record system",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "32964371-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "preoperative opioid usage"
+            },
+            {
+              "description": "age"
+            },
+            {
+              "description": "race"
+            },
+            {
+              "description": "patient-controlled analgesia use"
+            },
+            {
+              "description": "ICU admission"
+            }
+          ],
+          "description": "multivariate analysis"
+        }
+      ],
+      "study_design": "retrospective case-matched analysis",
+      "sample_size": "400 patients (200 in ERAS group and 200 in control group)",
+      "causal_question": "Does the implementation of an ERAS pathway affect perioperative outcomes in patients undergoing head and neck oncologic surgery, compared to those without an ERAS pathway, after adjusting for confounders?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:13:15.336250"
+  },
+  "33175173": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Patients visiting the emergency department (ED) of a large tertiary academic urban hospital\",\n    \"demographics\": \"mean age 49.2 years, 59.4% female, 76.7% non-Hispanic\",\n    \"setting\": \"Emergency department of a large tertiary academic urban hospital in Boston, Massachusetts\"\n  },\n  \"I\": {\n    \"variables\": [\"Display of patient photographs in the electronic health record (EHR)\"],\n    \"description\": \"Noninterruptive display of patient photographs in the banner of the EHR\"\n  },\n  \"C\": {\n    \"description\": \"Orders placed without a patient photograph displayed in the EHR\",\n    \"type\": \"No treatment/unexposed group\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"Rate of wrong-patient order entry (WPOE) errors\",\n    \"secondary_outcomes\": [\"Risk of WPOE errors in patients with higher acuity levels\", \"Risk of WPOE errors among patients of different racial backgrounds\"],\n    \"measurement\": \"Retract-and-reorder method\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"Patient acuity level\", \"Patient race\"],\n    \"adjustment_method\": \"Multivariable logistic regression\"\n  },\n  \"study_design\": \"Retrospective cohort study\",\n  \"sample_size\": \"2,558,746 orders for 71,851 unique patients\",\n  \"causal_question\": \"Does the display of patient photographs in the EHR affect the rate of wrong-patient order entry errors in patients visiting the emergency department, compared to orders placed without a patient photograph displayed, after adjusting for patient acuity level and race?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Patients visiting the emergency department (ED) of a large tertiary academic urban hospital",
+        "demographics": "mean age 49.2 years, 59.4% female, 76.7% non-Hispanic",
+        "setting": "Emergency department of a large tertiary academic urban hospital in Boston, Massachusetts"
+      },
+      "I": {
+        "variables": [
+          "Display of patient photographs in the electronic health record (EHR)"
+        ],
+        "description": "Noninterruptive display of patient photographs in the banner of the EHR"
+      },
+      "C": {
+        "description": "Orders placed without a patient photograph displayed in the EHR",
+        "type": "No treatment/unexposed group"
+      },
+      "O": {
+        "primary_outcome": "Rate of wrong-patient order entry (WPOE) errors",
+        "secondary_outcomes": [
+          "Risk of WPOE errors in patients with higher acuity levels",
+          "Risk of WPOE errors among patients of different racial backgrounds"
+        ],
+        "measurement": "Retract-and-reorder method"
+      },
+      "Confounders": {
+        "variables": [
+          "Patient acuity level",
+          "Patient race"
+        ],
+        "adjustment_method": "Multivariable logistic regression"
+      },
+      "study_design": "Retrospective cohort study",
+      "sample_size": "2,558,746 orders for 71,851 unique patients",
+      "causal_question": "Does the display of patient photographs in the EHR affect the rate of wrong-patient order entry errors in patients visiting the emergency department, compared to orders placed without a patient photograph displayed, after adjusting for patient acuity level and race?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "33175173",
+        "extracted": "2026-03-04T16:13:48.292878",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "33175173-population",
+          "name": "Population (P)",
+          "description": "Patients visiting the emergency department (ED) of a large tertiary academic urban hospital",
+          "demographics": "mean age 49.2 years, 59.4% female, 76.7% non-Hispanic",
+          "setting": "Emergency department of a large tertiary academic urban hospital in Boston, Massachusetts"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "33175173-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "Display of patient photographs in the electronic health record (EHR)"
+            }
+          ],
+          "description": "Noninterruptive display of patient photographs in the banner of the EHR"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "33175173-comparison",
+          "name": "Comparison (C)",
+          "description": "Orders placed without a patient photograph displayed in the EHR",
+          "type": "No treatment/unexposed group"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "33175173-outcome",
+          "name": "Outcome (O)",
+          "description": "Rate of wrong-patient order entry (WPOE) errors",
+          "secondary_outcomes": [
+            "Risk of WPOE errors in patients with higher acuity levels",
+            "Risk of WPOE errors among patients of different racial backgrounds"
+          ],
+          "measurement": "Retract-and-reorder method",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "33175173-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "Patient acuity level"
+            },
+            {
+              "description": "Patient race"
+            }
+          ],
+          "description": "Multivariable logistic regression"
+        }
+      ],
+      "study_design": "Retrospective cohort study",
+      "sample_size": "2,558,746 orders for 71,851 unique patients",
+      "causal_question": "Does the display of patient photographs in the EHR affect the rate of wrong-patient order entry errors in patients visiting the emergency department, compared to orders placed without a patient photograph displayed, after adjusting for patient acuity level and race?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:13:48.292901"
+  },
+  "33450821": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Patients with melanoma brain metastases\",\n    \"demographics\": \"not specified\",\n    \"setting\": \"The Ottawa Hospital, Canada\"\n  },\n  \"I\": {\n    \"variables\": [\"stereotactic radiotherapy (STRT)\", \"immune checkpoint inhibitors\"],\n    \"description\": \"contemporary locoregional and immunotherapy practices\"\n  },\n  \"C\": {\n    \"description\": \"historical treatment approaches (e.g., surgery, whole brain radiation therapy, systemic chemotherapies)\",\n    \"type\": \"unexposed or historical control\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"overall survival\",\n    \"secondary_outcomes\": [\"detection rates by routine screening\", \"neurological symptoms\", \"infratentorial lesions\"],\n    \"measurement\": \"proportional Cox regression model, Fisher\u2019s exact and Mann\u2013Whitney U tests\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"age\", \"lactate dehydrogenase (LDH) values\", \"multiple brain lesions\", \"extensive extracranial disease\", \"neurological symptoms\", \"infratentorial lesions\", \"treatment type\"],\n    \"adjustment_method\": \"multivariable analysis\"\n  },\n  \"study_design\": \"retrospective cohort study\",\n  \"sample_size\": \"276 patients\",\n  \"causal_question\": \"Does the use of stereotactic radiotherapy and immune checkpoint inhibitors affect overall survival in patients with melanoma brain metastases, compared to historical treatment approaches, after adjusting for age, LDH values, and other confounders?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Patients with melanoma brain metastases",
+        "demographics": "not specified",
+        "setting": "The Ottawa Hospital, Canada"
+      },
+      "I": {
+        "variables": [
+          "stereotactic radiotherapy (STRT)",
+          "immune checkpoint inhibitors"
+        ],
+        "description": "contemporary locoregional and immunotherapy practices"
+      },
+      "C": {
+        "description": "historical treatment approaches (e.g., surgery, whole brain radiation therapy, systemic chemotherapies)",
+        "type": "unexposed or historical control"
+      },
+      "O": {
+        "primary_outcome": "overall survival",
+        "secondary_outcomes": [
+          "detection rates by routine screening",
+          "neurological symptoms",
+          "infratentorial lesions"
+        ],
+        "measurement": "proportional Cox regression model, Fisher\u2019s exact and Mann\u2013Whitney U tests"
+      },
+      "Confounders": {
+        "variables": [
+          "age",
+          "lactate dehydrogenase (LDH) values",
+          "multiple brain lesions",
+          "extensive extracranial disease",
+          "neurological symptoms",
+          "infratentorial lesions",
+          "treatment type"
+        ],
+        "adjustment_method": "multivariable analysis"
+      },
+      "study_design": "retrospective cohort study",
+      "sample_size": "276 patients",
+      "causal_question": "Does the use of stereotactic radiotherapy and immune checkpoint inhibitors affect overall survival in patients with melanoma brain metastases, compared to historical treatment approaches, after adjusting for age, LDH values, and other confounders?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "33450821",
+        "extracted": "2026-03-04T16:14:16.935205",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "33450821-population",
+          "name": "Population (P)",
+          "description": "Patients with melanoma brain metastases",
+          "demographics": "not specified",
+          "setting": "The Ottawa Hospital, Canada"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "33450821-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "stereotactic radiotherapy (STRT)"
+            },
+            {
+              "description": "immune checkpoint inhibitors"
+            }
+          ],
+          "description": "contemporary locoregional and immunotherapy practices"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "33450821-comparison",
+          "name": "Comparison (C)",
+          "description": "historical treatment approaches (e.g., surgery, whole brain radiation therapy, systemic chemotherapies)",
+          "type": "unexposed or historical control"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "33450821-outcome",
+          "name": "Outcome (O)",
+          "description": "overall survival",
+          "secondary_outcomes": [
+            "detection rates by routine screening",
+            "neurological symptoms",
+            "infratentorial lesions"
+          ],
+          "measurement": "proportional Cox regression model, Fisher\u2019s exact and Mann\u2013Whitney U tests",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "33450821-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "age"
+            },
+            {
+              "description": "lactate dehydrogenase (LDH) values"
+            },
+            {
+              "description": "multiple brain lesions"
+            },
+            {
+              "description": "extensive extracranial disease"
+            },
+            {
+              "description": "neurological symptoms"
+            },
+            {
+              "description": "infratentorial lesions"
+            },
+            {
+              "description": "treatment type"
+            }
+          ],
+          "description": "multivariable analysis"
+        }
+      ],
+      "study_design": "retrospective cohort study",
+      "sample_size": "276 patients",
+      "causal_question": "Does the use of stereotactic radiotherapy and immune checkpoint inhibitors affect overall survival in patients with melanoma brain metastases, compared to historical treatment approaches, after adjusting for age, LDH values, and other confounders?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:14:16.935247"
+  },
+  "34338412": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Patients with vascular malformations (VM) presenting to a multidisciplinary committee\",\n    \"demographics\": \"all ages, no specific sex or race/ethnicity reported\",\n    \"setting\": \"Clinical University Hospital, Valencia, Spain\"\n  },\n  \"I\": {\n    \"variables\": [\"type of vascular malformation (e.g., capillary, venous, arteriovenous, lymphatic)\"],\n    \"description\": \"presence of different types of vascular malformations\"\n  },\n  \"C\": {\n    \"description\": \"no explicit comparison group, but different subtypes of VM are compared\",\n    \"type\": \"unexposed or alternative subtype\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"epidemiology of vascular malformations\",\n    \"secondary_outcomes\": [\"clinical characteristics\", \"clinical-radiological correlation\", \"treatment approaches\"],\n    \"measurement\": \"review of electronic medical records, monthly committee reports, and iconographic archive\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"age\", \"size and location of VM\"],\n    \"adjustment_method\": \"not explicitly stated, but descriptive statistics and subgroup analyses were performed\"\n  },\n  \"study_design\": \"retrospective observational study\",\n  \"sample_size\": \"more than 200 VM cases\",\n  \"causal_question\": \"Does the type of vascular malformation affect clinical characteristics, treatment approaches, and outcomes in patients presenting to a multidisciplinary committee, compared to other subtypes, after adjusting for age and VM size?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Patients with vascular malformations (VM) presenting to a multidisciplinary committee",
+        "demographics": "all ages, no specific sex or race/ethnicity reported",
+        "setting": "Clinical University Hospital, Valencia, Spain"
+      },
+      "I": {
+        "variables": [
+          "type of vascular malformation (e.g., capillary, venous, arteriovenous, lymphatic)"
+        ],
+        "description": "presence of different types of vascular malformations"
+      },
+      "C": {
+        "description": "no explicit comparison group, but different subtypes of VM are compared",
+        "type": "unexposed or alternative subtype"
+      },
+      "O": {
+        "primary_outcome": "epidemiology of vascular malformations",
+        "secondary_outcomes": [
+          "clinical characteristics",
+          "clinical-radiological correlation",
+          "treatment approaches"
+        ],
+        "measurement": "review of electronic medical records, monthly committee reports, and iconographic archive"
+      },
+      "Confounders": {
+        "variables": [
+          "age",
+          "size and location of VM"
+        ],
+        "adjustment_method": "not explicitly stated, but descriptive statistics and subgroup analyses were performed"
+      },
+      "study_design": "retrospective observational study",
+      "sample_size": "more than 200 VM cases",
+      "causal_question": "Does the type of vascular malformation affect clinical characteristics, treatment approaches, and outcomes in patients presenting to a multidisciplinary committee, compared to other subtypes, after adjusting for age and VM size?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "34338412",
+        "extracted": "2026-03-04T16:14:43.325731",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "34338412-population",
+          "name": "Population (P)",
+          "description": "Patients with vascular malformations (VM) presenting to a multidisciplinary committee",
+          "demographics": "all ages, no specific sex or race/ethnicity reported",
+          "setting": "Clinical University Hospital, Valencia, Spain"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "34338412-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "type of vascular malformation (e.g., capillary, venous, arteriovenous, lymphatic)"
+            }
+          ],
+          "description": "presence of different types of vascular malformations"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "34338412-comparison",
+          "name": "Comparison (C)",
+          "description": "no explicit comparison group, but different subtypes of VM are compared",
+          "type": "unexposed or alternative subtype"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "34338412-outcome",
+          "name": "Outcome (O)",
+          "description": "epidemiology of vascular malformations",
+          "secondary_outcomes": [
+            "clinical characteristics",
+            "clinical-radiological correlation",
+            "treatment approaches"
+          ],
+          "measurement": "review of electronic medical records, monthly committee reports, and iconographic archive",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "34338412-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "age"
+            },
+            {
+              "description": "size and location of VM"
+            }
+          ],
+          "description": "not explicitly stated, but descriptive statistics and subgroup analyses were performed"
+        }
+      ],
+      "study_design": "retrospective observational study",
+      "sample_size": "more than 200 VM cases",
+      "causal_question": "Does the type of vascular malformation affect clinical characteristics, treatment approaches, and outcomes in patients presenting to a multidisciplinary committee, compared to other subtypes, after adjusting for age and VM size?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:14:43.325746"
+  },
+  "34348869": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Patients undergoing breast conserving therapy for malignancy\",\n    \"demographics\": \"age, family history, BMI\",\n    \"setting\": \"clinical setting, specifically Penn State Health Milton S Hershey Medical Center\"\n  },\n  \"I\": {\n    \"variables\": [\"use of intraoperative ultrasound\", \"reflector guidance\", \"wire localization\"],\n    \"description\": \"use of reflector guidance and intraoperative ultrasound for breast conserving therapy\"\n  },\n  \"C\": {\n    \"description\": \"wire localization\",\n    \"type\": \"active comparator\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"positive surgical margins\",\n    \"secondary_outcomes\": [\"reoperation rates\", \"cosmetic outcome\"],\n    \"measurement\": \"margin status, recorded using electronic medical records\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"lesion type and grade\", \"lesion location\", \"patient age\", \"family history\", \"BMI\"],\n    \"adjustment_method\": \"univariate summary statistics and logistic regression\"\n  },\n  \"study_design\": \"retrospective cohort study\",\n  \"sample_size\": \"606 image-guided pre-surgical localizations\",\n  \"causal_question\": \"Does the use of reflector guidance with intraoperative ultrasound affect the rate of positive surgical margins in patients undergoing breast conserving therapy, compared to wire localization, after adjusting for confounders?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Patients undergoing breast conserving therapy for malignancy",
+        "demographics": "age, family history, BMI",
+        "setting": "clinical setting, specifically Penn State Health Milton S Hershey Medical Center"
+      },
+      "I": {
+        "variables": [
+          "use of intraoperative ultrasound",
+          "reflector guidance",
+          "wire localization"
+        ],
+        "description": "use of reflector guidance and intraoperative ultrasound for breast conserving therapy"
+      },
+      "C": {
+        "description": "wire localization",
+        "type": "active comparator"
+      },
+      "O": {
+        "primary_outcome": "positive surgical margins",
+        "secondary_outcomes": [
+          "reoperation rates",
+          "cosmetic outcome"
+        ],
+        "measurement": "margin status, recorded using electronic medical records"
+      },
+      "Confounders": {
+        "variables": [
+          "lesion type and grade",
+          "lesion location",
+          "patient age",
+          "family history",
+          "BMI"
+        ],
+        "adjustment_method": "univariate summary statistics and logistic regression"
+      },
+      "study_design": "retrospective cohort study",
+      "sample_size": "606 image-guided pre-surgical localizations",
+      "causal_question": "Does the use of reflector guidance with intraoperative ultrasound affect the rate of positive surgical margins in patients undergoing breast conserving therapy, compared to wire localization, after adjusting for confounders?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "34348869",
+        "extracted": "2026-03-04T16:15:10.812056",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "34348869-population",
+          "name": "Population (P)",
+          "description": "Patients undergoing breast conserving therapy for malignancy",
+          "demographics": "age, family history, BMI",
+          "setting": "clinical setting, specifically Penn State Health Milton S Hershey Medical Center"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "34348869-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "use of intraoperative ultrasound"
+            },
+            {
+              "description": "reflector guidance"
+            },
+            {
+              "description": "wire localization"
+            }
+          ],
+          "description": "use of reflector guidance and intraoperative ultrasound for breast conserving therapy"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "34348869-comparison",
+          "name": "Comparison (C)",
+          "description": "wire localization",
+          "type": "active comparator"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "34348869-outcome",
+          "name": "Outcome (O)",
+          "description": "positive surgical margins",
+          "secondary_outcomes": [
+            "reoperation rates",
+            "cosmetic outcome"
+          ],
+          "measurement": "margin status, recorded using electronic medical records",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "34348869-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "lesion type and grade"
+            },
+            {
+              "description": "lesion location"
+            },
+            {
+              "description": "patient age"
+            },
+            {
+              "description": "family history"
+            },
+            {
+              "description": "BMI"
+            }
+          ],
+          "description": "univariate summary statistics and logistic regression"
+        }
+      ],
+      "study_design": "retrospective cohort study",
+      "sample_size": "606 image-guided pre-surgical localizations",
+      "causal_question": "Does the use of reflector guidance with intraoperative ultrasound affect the rate of positive surgical margins in patients undergoing breast conserving therapy, compared to wire localization, after adjusting for confounders?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:15:10.812096"
+  },
+  "34831722": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Patients with hypertension and diabetes in Taizhou, China\",\n    \"demographics\": \"age (especially 65 and above), income, education level, marital status, agricultural hukou\",\n    \"setting\": \"Primary health care institutions or other designated institutions in Taizhou, China\"\n  },\n  \"I\": {\n    \"variables\": [\"Full coverage policy for essential medicines (FCPEM)\"],\n    \"description\": \"Implementation of the full coverage policy for essential medicines\"\n  },\n  \"C\": {\n    \"description\": \"Patients without free medicine use or those not receiving FCPEM\",\n    \"type\": \"no treatment or unexposed group\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"Proportion of patients with free medicine use\",\n    \"secondary_outcomes\": [\"Medicine access\", \"Adherence to medicines\", \"Healthcare expenditures\"],\n    \"measurement\": \"Electronic health record database analysis\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"Income\", \"Education level\", \"Agricultural hukou\", \"Age\", \"Marital status\", \"District of residence\"],\n    \"adjustment_method\": \"Panel logit model\"\n  },\n  \"study_design\": \"Longitudinal study\",\n  \"sample_size\": \"Not explicitly mentioned\",\n  \"causal_question\": \"Does the implementation of the full coverage policy for essential medicines affect the proportion of patients with free medicine use in patients with hypertension and diabetes in Taizhou, China, compared to those without FCPEM, after adjusting for income, education level, agricultural hukou, age, marital status, and district of residence?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Patients with hypertension and diabetes in Taizhou, China",
+        "demographics": "age (especially 65 and above), income, education level, marital status, agricultural hukou",
+        "setting": "Primary health care institutions or other designated institutions in Taizhou, China"
+      },
+      "I": {
+        "variables": [
+          "Full coverage policy for essential medicines (FCPEM)"
+        ],
+        "description": "Implementation of the full coverage policy for essential medicines"
+      },
+      "C": {
+        "description": "Patients without free medicine use or those not receiving FCPEM",
+        "type": "no treatment or unexposed group"
+      },
+      "O": {
+        "primary_outcome": "Proportion of patients with free medicine use",
+        "secondary_outcomes": [
+          "Medicine access",
+          "Adherence to medicines",
+          "Healthcare expenditures"
+        ],
+        "measurement": "Electronic health record database analysis"
+      },
+      "Confounders": {
+        "variables": [
+          "Income",
+          "Education level",
+          "Agricultural hukou",
+          "Age",
+          "Marital status",
+          "District of residence"
+        ],
+        "adjustment_method": "Panel logit model"
+      },
+      "study_design": "Longitudinal study",
+      "sample_size": "Not explicitly mentioned",
+      "causal_question": "Does the implementation of the full coverage policy for essential medicines affect the proportion of patients with free medicine use in patients with hypertension and diabetes in Taizhou, China, compared to those without FCPEM, after adjusting for income, education level, agricultural hukou, age, marital status, and district of residence?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "34831722",
+        "extracted": "2026-03-04T16:15:37.011522",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "34831722-population",
+          "name": "Population (P)",
+          "description": "Patients with hypertension and diabetes in Taizhou, China",
+          "demographics": "age (especially 65 and above), income, education level, marital status, agricultural hukou",
+          "setting": "Primary health care institutions or other designated institutions in Taizhou, China"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "34831722-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "Full coverage policy for essential medicines (FCPEM)"
+            }
+          ],
+          "description": "Implementation of the full coverage policy for essential medicines"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "34831722-comparison",
+          "name": "Comparison (C)",
+          "description": "Patients without free medicine use or those not receiving FCPEM",
+          "type": "no treatment or unexposed group"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "34831722-outcome",
+          "name": "Outcome (O)",
+          "description": "Proportion of patients with free medicine use",
+          "secondary_outcomes": [
+            "Medicine access",
+            "Adherence to medicines",
+            "Healthcare expenditures"
+          ],
+          "measurement": "Electronic health record database analysis",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "34831722-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "Income"
+            },
+            {
+              "description": "Education level"
+            },
+            {
+              "description": "Agricultural hukou"
+            },
+            {
+              "description": "Age"
+            },
+            {
+              "description": "Marital status"
+            },
+            {
+              "description": "District of residence"
+            }
+          ],
+          "description": "Panel logit model"
+        }
+      ],
+      "study_design": "Longitudinal study",
+      "sample_size": "Not explicitly mentioned",
+      "causal_question": "Does the implementation of the full coverage policy for essential medicines affect the proportion of patients with free medicine use in patients with hypertension and diabetes in Taizhou, China, compared to those without FCPEM, after adjusting for income, education level, agricultural hukou, age, marital status, and district of residence?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:15:37.011551"
+  },
+  "35870161": {
+    "raw": "```json\n{\n  \"P\": {\n    \"description\": \"Adult patients with end-stage heart failure\",\n    \"demographics\": \"average age 65.7 years, 80% male, 51% ischemic etiology\",\n    \"setting\": \"Nontransplant center, Baylor Scott and White, The Heart Hospital, Plano, Texas, USA\"\n  },\n  \"I\": {\n    \"variables\": [\"Left ventricular assist device (LVAD) implantation\"],\n    \"description\": \"Destination therapy (DT) LVAD implantation\"\n  },\n  \"C\": {\n    \"description\": \"No comparison group, observational study of LVAD outcomes\",\n    \"type\": \"No control group\"\n  },\n  \"O\": {\n    \"primary_outcome\": \"Survival\",\n    \"secondary_outcomes\": [\"Right ventricular failure requiring mechanical support\", \"Reoperations for bleeding\"],\n    \"measurement\": \"Kaplan-Meier method, multivariable Cox proportional hazards regression models\"\n  },\n  \"Confounders\": {\n    \"variables\": [\"Renal function\", \"Cardiopulmonary bypass (CPB) time\", \"Preoperative hemoglobin\"],\n    \"adjustment_method\": \"Multivariable Cox proportional hazards regression models\"\n  },\n  \"study_design\": \"Retrospective cohort study\",\n  \"sample_size\": \"100 primary LVAD implants\",\n  \"causal_question\": \"Does destination therapy LVAD implantation affect survival in adult patients with end-stage heart failure at a nontransplant center, after adjusting for renal function, CPB time, and preoperative hemoglobin?\"\n}\n```",
+    "parsed": {
+      "P": {
+        "description": "Adult patients with end-stage heart failure",
+        "demographics": "average age 65.7 years, 80% male, 51% ischemic etiology",
+        "setting": "Nontransplant center, Baylor Scott and White, The Heart Hospital, Plano, Texas, USA"
+      },
+      "I": {
+        "variables": [
+          "Left ventricular assist device (LVAD) implantation"
+        ],
+        "description": "Destination therapy (DT) LVAD implantation"
+      },
+      "C": {
+        "description": "No comparison group, observational study of LVAD outcomes",
+        "type": "No control group"
+      },
+      "O": {
+        "primary_outcome": "Survival",
+        "secondary_outcomes": [
+          "Right ventricular failure requiring mechanical support",
+          "Reoperations for bleeding"
+        ],
+        "measurement": "Kaplan-Meier method, multivariable Cox proportional hazards regression models"
+      },
+      "Confounders": {
+        "variables": [
+          "Renal function",
+          "Cardiopulmonary bypass (CPB) time",
+          "Preoperative hemoglobin"
+        ],
+        "adjustment_method": "Multivariable Cox proportional hazards regression models"
+      },
+      "study_design": "Retrospective cohort study",
+      "sample_size": "100 primary LVAD implants",
+      "causal_question": "Does destination therapy LVAD implantation affect survival in adult patients with end-stage heart failure at a nontransplant center, after adjusting for renal function, CPB time, and preoperative hemoglobin?"
+    },
+    "fhir": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "meta": {
+        "source": "Llama-3.3-70B",
+        "pmid": "35870161",
+        "extracted": "2026-03-04T16:16:02.202765",
+        "paper_truncate_length": 6000
+      },
+      "entry": [
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "35870161-population",
+          "name": "Population (P)",
+          "description": "Adult patients with end-stage heart failure",
+          "demographics": "average age 65.7 years, 80% male, 51% ischemic etiology",
+          "setting": "Nontransplant center, Baylor Scott and White, The Heart Hospital, Plano, Texas, USA"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "35870161-intervention",
+          "name": "Intervention/Exposure (I)",
+          "characteristic": [
+            {
+              "description": "Left ventricular assist device (LVAD) implantation"
+            }
+          ],
+          "description": "Destination therapy (DT) LVAD implantation"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "35870161-comparison",
+          "name": "Comparison (C)",
+          "description": "No comparison group, observational study of LVAD outcomes",
+          "type": "No control group"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "35870161-outcome",
+          "name": "Outcome (O)",
+          "description": "Survival",
+          "secondary_outcomes": [
+            "Right ventricular failure requiring mechanical support",
+            "Reoperations for bleeding"
+          ],
+          "measurement": "Kaplan-Meier method, multivariable Cox proportional hazards regression models",
+          "handling": "continuous"
+        },
+        {
+          "resourceType": "EvidenceVariable",
+          "id": "35870161-confounders",
+          "name": "Confounders",
+          "characteristic": [
+            {
+              "description": "Renal function"
+            },
+            {
+              "description": "Cardiopulmonary bypass (CPB) time"
+            },
+            {
+              "description": "Preoperative hemoglobin"
+            }
+          ],
+          "description": "Multivariable Cox proportional hazards regression models"
+        }
+      ],
+      "study_design": "Retrospective cohort study",
+      "sample_size": "100 primary LVAD implants",
+      "causal_question": "Does destination therapy LVAD implantation affect survival in adult patients with end-stage heart failure at a nontransplant center, after adjusting for renal function, CPB time, and preoperative hemoglobin?"
+    },
+    "success": true,
+    "timestamp": "2026-03-04T16:16:02.202782"
+  }
+}

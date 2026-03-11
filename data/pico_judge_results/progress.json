@@ -1,0 +1,8648 @@
+{
+ "20473188": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 1,
+     "C_accuracy": 1,
+     "O_accuracy": 2,
+     "overall": 1
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 5,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 1,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 2,
+     "overall": 1
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 2,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 1,
+     "C_accuracy": 1,
+     "O_accuracy": 2,
+     "overall": 1
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 1,
+     "I_accuracy": 1,
+     "C_accuracy": 2,
+     "O_accuracy": 2,
+     "overall": 1
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": null,
+    "success": false
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 1,
+     "C_accuracy": 1,
+     "O_accuracy": 2,
+     "overall": 1
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 1,
+     "C_accuracy": 1,
+     "O_accuracy": 2,
+     "overall": 1
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 1,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 2,
+     "overall": 1
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 2,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 2,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 1,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 1,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 2,
+     "overall": 1
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 3,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 2,
+     "overall": 1
+    },
+    "success": true
+   }
+  }
+ },
+ "23238659": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 1,
+     "I_accuracy": 1,
+     "C_accuracy": 1,
+     "O_accuracy": 1,
+     "overall": 1
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": null,
+    "success": false
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": null,
+    "success": false
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 4,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  }
+ },
+ "23811246": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": null,
+    "success": false
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": null,
+    "success": false
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 0,
+     "overall": 0
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  }
+ },
+ "24972918": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 4,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4.5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 2,
+     "overall": 1.6
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 4,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 2
+    },
+    "success": true
+   }
+  }
+ },
+ "28122760": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 0,
+     "overall": 0
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  }
+ },
+ "28319547": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": null,
+    "success": false
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": null,
+    "success": false
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 2,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 2,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": null,
+    "success": false
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 1,
+     "C_accuracy": 1,
+     "O_accuracy": 2,
+     "overall": 1
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 1,
+     "C_accuracy": 1,
+     "O_accuracy": 2,
+     "overall": 1
+    },
+    "success": true
+   }
+  }
+ },
+ "28472213": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 3,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4.5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 2,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4.5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  }
+ },
+ "28475259": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 5,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  }
+ },
+ "28886989": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 2,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3.8
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 1,
+     "O_accuracy": 2,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 2,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 3.6
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  }
+ },
+ "29264632": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  }
+ },
+ "29305022": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 2,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 4,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 3,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  }
+ },
+ "29539612": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 2,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 2,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 2,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 2,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 5,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 2,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3.8
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  }
+ },
+ "29669697": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4.5
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  }
+ },
+ "29894495": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 3,
+     "O_accuracy": 2,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  }
+ },
+ "30618280": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 2,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 0,
+     "overall": 0
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  }
+ },
+ "30853444": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 3,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 2,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3.5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  }
+ },
+ "31405419": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 3,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 2,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 1,
+     "I_accuracy": 1,
+     "C_accuracy": 1,
+     "O_accuracy": 1,
+     "overall": 1
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4.5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 2,
+     "overall": 2
+    },
+    "success": true
+   }
+  }
+ },
+ "31537841": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 3,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 2
+    },
+    "success": true
+   }
+  }
+ },
+ "32069337": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 3,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 3,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  }
+ },
+ "32591734": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4.5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4.5
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 0,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  }
+ },
+ "32688083": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 2,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 0,
+     "overall": 0
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 0,
+     "overall": 0
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 2,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 2,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 3,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  }
+ },
+ "32833926": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 0,
+     "overall": 0
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 2,
+     "O_accuracy": 5,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3.6
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 0,
+     "overall": 0
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": null,
+    "success": false
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 1,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 0,
+     "overall": 0
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 2,
+     "overall": 2
+    },
+    "success": true
+   }
+  }
+ },
+ "32925614": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 3,
+     "O_accuracy": 2,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  }
+ },
+ "32964371": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 3.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 4,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 2,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  }
+ },
+ "33175173": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 0,
+     "overall": 0
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 0,
+     "overall": 0
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 0,
+     "overall": 0
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 0,
+     "overall": 0
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   }
+  }
+ },
+ "33450821": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 1,
+     "I_accuracy": 1,
+     "C_accuracy": 1,
+     "O_accuracy": 1,
+     "overall": 1
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 2,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 0,
+     "overall": 0
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 4,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  }
+ },
+ "34338412": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3.5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 4,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3.8
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 2,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 2.8
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  }
+ },
+ "34348869": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 3.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 2,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 2,
+     "C_accuracy": 3,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3.6
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 2
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 0,
+     "overall": 0
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 3,
+     "O_accuracy": 1,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 5,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 2,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  }
+ },
+ "34831722": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 2,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 3,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 4,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 3,
+     "I_accuracy": 3,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  }
+ },
+ "35870161": {
+  "DeepSeek-V3": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 2,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 5,
+     "overall": 4.5
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 2,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Kimi-K2": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 0,
+     "I_accuracy": 0,
+     "C_accuracy": 0,
+     "O_accuracy": 0,
+     "overall": 0
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 1,
+     "O_accuracy": 3,
+     "overall": 2
+    },
+    "success": true
+   }
+  },
+  "Llama-3.3-70B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 4.75
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 5,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 0,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 0,
+     "O_accuracy": 3,
+     "overall": 3
+    },
+    "success": true
+   }
+  },
+  "Gemma-3-27B": {
+   "DeepSeek-V3-685B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Kimi-K2-1T": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 2,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.3-70B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 4,
+     "O_accuracy": 5,
+     "overall": 5
+    },
+    "success": true
+   },
+   "Gemma-3-27B": {
+    "scores": {
+     "P_accuracy": 5,
+     "I_accuracy": 5,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 4
+    },
+    "success": true
+   },
+   "Llama-3.1-8B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 1,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Llama-3.2-3B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 5,
+     "C_accuracy": 0,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   },
+   "Qwen2.5-7B": {
+    "scores": {
+     "P_accuracy": 4,
+     "I_accuracy": 4,
+     "C_accuracy": 3,
+     "O_accuracy": 4,
+     "overall": 3
+    },
+    "success": true
+   }
+  }
+ }
+}
